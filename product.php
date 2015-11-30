@@ -2,87 +2,126 @@
 <body class="product-page">
 	
 <?php include($_SERVER['DOCUMENT_ROOT']. '/templates/nav.html'); ?>
-
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div><!--container-->
+	
 	<div class="container product-main">
 		<div class="row">
 
-			<div class="col-sm-3">
+			<div class="col-md-3">
 				<div class="content">
-				
 					<!-- Product information for small screens -->
 					<div class="product-details-small">
 						<!-- Product name and manufacturer -->
-						<h2>Платье ZURI MAXI DRESS</h2>
-						<span class="glyphicon glyphicon-tags"></span><small>Бренд:<a href=""> ECCO</a></small>
-						<small>Категория:<a href=""> Джинсовые платья</a></small>
-
+						<h2>Он-лайн игра Amala</h2>
+						<small><span class="glyphicon  glyphicon-calendar"></span>
+						<a href=""> 22 сентября</a></small>
+						
+						<small><span class="glyphicon glyphicon-tags"></span>
+						<a href=""> он-лайн игры</a></small>
 						<!-- Pricing and offer info -->
-						<div class="pricing clearfix">
-							<p class="bigprice"><span class="total">3 599</span><span class="cur">&#8381;</span></p>
+						<div class="PriceArea">
+						<div class="row">
 							
+							<div class="col-md-12">
+								<div class="pricing clearfix">
+							<p class="bigprice">
+								<small>награда:</small>
+								<span class="total NewPrice"> 2 650</span><span class="cur">&#8381;</span>
+							</p>
+							
+						</div><!--pricing-->								
 						</div>
+							
+							
+						</div><!--row-->
+						</div><!--PriceArea-->
 					</div><!--product-details-small-->
-				<div class="Sale hidden-xs">
-							<span class="glyphicon glyphicon-certificate"><b>20%</b></span>
+						<div class="Sale">
+							<b>новый</b>
 						</div>
+						
 					<div class="main-imgs clearfix">
 						
 						
-						<img data-large="img/product-1.jpg" id="img1" src="img/product-1.jpg" alt="BeachFront Frog swimsuit" class="my-foto main-img img-responsive" />
+						<img data-large="img/product-1.jpg" src="img/product-1.jpg" alt="img" class="main-img img-responsive" />
 
 					</div><!--main-imgs-->
-					<table class="table table-striped table-bordered">
+					<div class="LandingLink">
+						<a href="#">http://website.com</a>
+					</div><!--LandingLink-->
+					<table id="OfferDescriptionTable" class="table table-striped ">
 							<tr>
 								<td>eCPC:</td>
 								<td>8%</td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
 							</tr>
 							<tr>
 								<td>Время жизни Cookie:</td>
 								<td>30 дней</td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
 							</tr>
 							<tr>
 								<td>Холд:</td>
 								<td>14 дней</td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
 							</tr>
+							
 							<tr>
 								<td>CR:</td>
 								<td>2 %</td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
 							</tr>
 							<tr>
 								<td>Апрув:</td>
-								<td>14 дней</td>
+								<td>14 дней </td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
 							</tr>
 							
 						</table>
 					
 				</div><!--content-->
-			</div> <!--col-sm-4-->
-			<div class="col-sm-6">
-				<div class="content">
+			</div> <!--col-sm-3-->
+			<div class="col-md-6">
+				
 					
 					<!-- Product information for large screens -->
 					<div class="product-details-large">
 						<!-- Product name and manufacturer -->
 						<h1>Он-лайн игра Amala</h1>
-						<span class="glyphicon glyphicon-tags"></span>
-						<small><a href=""> он-лайн игры</a></small>
+						<small><span class="glyphicon  glyphicon-calendar"></span>
+						<a href=""> 22 сентября</a></small>
+						
+						<small><span class="glyphicon glyphicon-tags"></span>
+						<a href=""> он-лайн игры</a></small>
+						<div class="PriceArea">
 						<div class="row">
-							<div class="col-sm-6">
+							
+							<div class="col-md-7">
 								<div class="pricing clearfix">
 							<p class="bigprice">
-								
-								<span class="total NewPrice">2 650</span><span class="cur">&#8381;</span>
+								<small>награда:</small>
+								<span class="total NewPrice"> 2 650</span><span class="cur">&#8381;</span>
 							</p>
 							
 						</div><!--pricing-->								</div>
-							<div class="col-sm-6">	
+							<div class="col-md-5">	
 								<div class="MainButton text-right">							
-						<button data-toggle="modal" data-target="#InBasketModal" type="button" class="btn btn-fresh btn-block text-uppercase btn-lg">Подключить</button>
+						<button data-toggle="modal" data-target="#RegModal" type="button" class="btn btn-fresh btn-block btn-lg">Подключить</button>
 						</div><!--MainButton-->
 							</div>	
-						</div>
-								<br>				
-					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							
+						</div><!--row-->
+						</div><!--PriceArea-->
+						
+						<br>				
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
       <h4 class="panel-title">
@@ -163,17 +202,17 @@
 						
 						
 						<div class="MainButton">							
-						<button data-toggle="modal" data-target="#InBasketModal" type="button" class="btn btn-fresh text-uppercase btn-lg">Подключить</button>
+						<button data-toggle="modal" data-target="#RegModal" type="button" class="btn btn-fresh text-uppercase btn-lg">Подключить</button>
 						</div><!--MainButton-->
 						
 						
 					</form><!--form-inline-->
 						
 					</div><!--product-details-small-->
-			</div> <!--content-->
+			
 			
 			</div> <!--col-sm-5-->
-			<div class="col-sm-3 PopInfo hidden-xs">
+			<div class="col-md-3 PopInfo hidden-xs">
 				<div class="PopBlock"  data-container="body" data-toggle="popover" data-placement="bottom" data-content="Офферы от крупнейших рекламодателей. Гарантии максимальных выплат для мобильного трафика">
 					<div class="TryOn"></div>
 					<p>Эксклюзивные офферы</p>

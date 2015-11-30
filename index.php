@@ -4,7 +4,7 @@
 	<!--<div id="page-preloader"><span class="spinner"></span></div><!--page-preloader-->
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/nav.html'); ?>
 
-	<div class="container hidden-xs hidden-sm">
+	<!--<div class="container hidden-xs hidden-sm">
 		<div class="row">
 			<div class="PopInfo inIndex clearfix ">
 				<div class="PopBlock col-md-3"  data-container="body" data-toggle="popover" data-placement="bottom" data-content="Несколько способов доставки">

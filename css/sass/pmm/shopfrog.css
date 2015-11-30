@@ -261,7 +261,7 @@ nav {
     background-color: #fff;
     box-shadow: 0px 0px 2px rgba(50, 50, 50, 0.2); }
 .product-page .content {
-  margin: 30px; }
+  margin: 15px; }
 .product-page h1 {
   margin-bottom: 0; }
 .product-page .product-details-small {
@@ -271,6 +271,8 @@ nav {
   .product-page .pricing .bigprice {
     font-size: 36px;
     margin-bottom: 0; }
+    .product-page .pricing .bigprice small {
+      font-size: 14px; }
     .product-page .pricing .bigprice .NewPrice {
       color: #8cc63e; }
   .product-page .pricing .cur {
@@ -286,24 +288,13 @@ nav {
     box-shadow: rgba(255, 255, 255, 0.8) 0 1px 0, inset rgba(0, 0, 0, 0.05) 0 1px 0; }
 .product-page .Sale {
   position: absolute;
-  top: 0px;
-  left: 0;
-  color: #8cc63e;
-  font-size: 60px; }
-  .product-page .Sale span {
-    position: relative;
-    z-index: 4;
-    right: -40px;
-    top: 20px; }
-    .product-page .Sale span b {
-      left: 15px;
-      color: #fff;
-      top: 20px;
-      font-size: 16px;
-      position: absolute;
-      font-family: "PT Sans", sans-serif; }
+  z-index: 999;
+  background: #8CC63E;
+  padding: 3px 15px; }
+  .product-page .Sale b {
+    color: #fff; }
 .product-page .main-imgs {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative; }
   .product-page .main-imgs img {
     border: 1px solid #eee; }
@@ -503,7 +494,8 @@ label {
   .product-page .product-details-large {
     display: block; }
     .product-page .product-details-large small a {
-      color: #7dc31f; }
+      color: #7dc31f;
+      margin-right: 10px; }
     .product-page .product-details-large span.glyphicon-tags {
       margin-right: 5px;
       font-size: 10px; }
@@ -662,9 +654,10 @@ label {
 
 .MainButton {
   height: 45px;
-  width: 200px;
   margin-bottom: 10px;
   margin-top: 20px; }
+  .MainButton button {
+    text-transform: uppercase; }
 
 .btn-fresh {
   color: #fff;
@@ -784,10 +777,7 @@ ul.social-network li {
   background: #33ccff url("/img/soc.png") no-repeat 9px -33px; }
 
 .social-network a.icoGoogle {
-  background: #45668E url("/img/soc.png") no-repeat 7px -73px; }
-
-.social-network a.icoVimeo {
-  background-color: #0590B8; }
+  background: #45668e url("/img/soc.png") no-repeat 7px -73px; }
 
 .social-network a.icoLinkedin {
   background-color: #007bb7; }
@@ -1124,6 +1114,73 @@ a.socialIcon:hover, .socialHoverClass {
     position: relative;
     top: 4px; }
 
+#OfferDescriptionTable tr td {
+  border: none; }
+
+.Question {
+  border: 1px solid #ccc;
+  background: linear-gradient(to top, #f2f2f2, #fff);
+  padding: 2px 7px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #ccc; }
+
+.PriceArea {
+  border-top: 1px dotted #ccc;
+  margin-top: 20px; }
+
+.LandingLink {
+  margin-bottom: 10px; }
+  .LandingLink a {
+    color: #38B5E6; }
+
 .Offer {
   outline: 1px solid #777;
   min-height: 650px; }
+
+.GreyArea {
+  background: #f8f8f8;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-top: 20px; }
+
+#myTab {
+  padding: 10px 15px 0 15px;
+  background: #f8f8f8; }
+  #myTab li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+.checkbox a {
+  color: #38B5E6; }
+
+.req span {
+  color: #8CC63E; }
+
+#TabContent {
+  padding-top: 15px; }
+  #TabContent .control-group {
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px; }
+  #TabContent .controls {
+    position: relative; }
+    #TabContent .controls .glyphicon {
+      position: absolute;
+      top: -6px;
+      font-size: 14px;
+      left: -6px;
+      color: #8CC63E; }
+  #TabContent .form-horizontal .control-label {
+    padding-bottom: 7px; }
+
+#RegModal .modal-body {
+  padding: 0; }
+#RegModal .tab-pane {
+  border-bottom: none;
+  margin-bottom: 10px; }
