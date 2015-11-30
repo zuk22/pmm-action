@@ -1,0 +1,143 @@
+
+<div class="clearfix"></div>
+
+
+<footer>
+	
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-sm-6 col-md-3">
+				<a href="index.php"><img src="../img/logo.png" alt="logo" width="174" height="37" /></a>
+				
+			</div> <!-- //end span3 -->
+			
+			<div class="col-sm-6 col-md-3">
+				
+				<ul>
+					<li><a  href="#">вэбмастерам</a></li>
+					<li><a href="#">рекламодателям</a></li>
+					<li><a href="#">офферы</a></li>
+				</ul>
+
+				
+				
+			</div> <!-- //end span3 -->
+			<div class="col-sm-6 col-md-3">
+				
+				<ul>
+				
+					<li><a href="#">информация</a></li>
+					<li><a href="#">новости</a></li>
+					<li><a href="#">контакты</a></li>
+					
+				</ul>
+			</div> <!-- //end span3 -->
+			
+			<div class="col-sm-6 col-md-3 ">
+				
+				
+				<p class="Phone text-right">
+				8 <b>499</b> 110-0829 <br>
+				<span> (10:00 - 19:00) по Москве</span>
+				<a href="mailto:support@pmm-action.ru">support@pmm-action.ru</a>
+				</p>
+			</div> <!-- //end span3 -->
+			
+			<div class="Social col-sm-12 col-md-12 text-right">
+				<ul class="social-network social-circle">
+						
+                        
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="skype"><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        
+                        
+                        
+                    </ul>
+			</div>
+			
+			<div class="col-md-12 BottomFooter">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="text-left">&copy; 2015 pmm-action</p>
+					</div>
+					<div class="col-sm-6">
+						<p class="text-right">lorem ipsum text fish </p>
+					</div>
+					
+				</div>
+			</div>
+									
+		</div><!--row-->
+	</div>
+</footer>
+
+	
+	<script src="js/jquery.js"></script>
+	
+	<script>
+		$('#FilterBlock').on('show.bs.dropdown', function () {
+
+  			})
+  			
+  		//Размеры
+  		$('#radioBtn a').on('click', function(){
+	  		var sel = $(this).data('title');
+	  		var tog = $(this).data('toggle');
+	  		$('#'+tog).prop('value', sel);
+    
+	  		$('a[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').removeClass('active').addClass('notActive');
+	  		$('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
+})	
+  			
+  	</script>
+  	<script>
+	  	$(function () {
+		  	$('[data-toggle="popover"]').popover()
+	})
+  	</script>
+  	
+  	<script>
+	  	$(document).ready(function(){
+    $(window).resize(function() {
+
+        ellipses1 = $("#bc1 :nth-child(2)")
+        if ($("#bc1 a:hidden").length >0) {ellipses1.show()} else {ellipses1.hide()}
+        
+        ellipses2 = $("#bc2 :nth-child(2)")
+        if ($("#bc2 a:hidden").length >0) {ellipses2.show()} else {ellipses2.hide()}
+        
+    })
+    
+});
+  	</script>  
+  		
+  	
+  	<script>
+	  	var skipValues = [
+	  		document.getElementById('skip-value-lower'),
+	  		document.getElementById('skip-value-upper')
+	  	];
+	  	
+	  	skipSlider.noUiSlider.on('update', function( values, handle ) {
+	  		skipValues[handle].innerHTML = values[handle];
+	  	});
+  	</script>
+  	
+  	
+  	 
+  	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/modernizr.min.js"></script>	
+	<script src="js/imagesloaded.min.js"></script>	
+	<script src="js/jquery.masonry.min.js"></script>	
+	<!--<script src="js/jquery.rateit.min.js"></script>-->
+	<script src="js/shopfrog.js"></script>
+	<!--<script src="js/script.js"></script>-->
+	
+	
