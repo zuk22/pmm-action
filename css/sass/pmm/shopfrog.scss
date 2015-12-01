@@ -34,7 +34,7 @@
 
 body {
 	font-family: 'PT Sans', sans-serif;
-	padding-top: 90px;	
+	padding-top: 80px;	
 	padding-left: 20px;
 	padding-right: 20px;
 	background: #f8f8f8 ;
@@ -59,15 +59,15 @@ nav {
 	float: left;
 }
 
+b.count {
+    	color: #fff;
+    	background: #fd5e00;
+    	padding: 2px 8px;
+    	margin-left: 3px;
+    	border-radius: 3px;
+    }
+
 .navbar {
-	
-	b.count {
-			color: #fff;
-			background: #fd5e00;
-			padding: 2px 8px;
-			margin-left: 3px;
-			border-radius: 3px;
-		}
 	
 	.brand {
 		margin-left: 0;
@@ -398,22 +398,8 @@ nav {
 	padding: 0;
 }
 
-.collection-page {
-	.container {
-		margin: 10px auto 0 auto;
-	}
-	
-	#product-board {
-		margin-top: 0;
-	}
-	
-	
-}
-
 .product-page {
-	.container {
-		margin: 10px auto 0 auto;
-	
+	.container {	
 		&.product-main {
 			background-color: #fff;
 			box-shadow: 0px 0px 2px rgba(50, 50, 50, 0.2);
@@ -1705,11 +1691,6 @@ a.socialIcon:hover, .socialHoverClass {
 	}
 }
 
-.Offer {
-	outline: 1px solid #777;
-	min-height: 650px;
-}
-
 .GreyArea {
 	background: #f8f8f8;
 	border-top: 1px solid #eee;
@@ -1724,8 +1705,7 @@ a.socialIcon:hover, .socialHoverClass {
 	background: #f8f8f8;
 	
 	li a {
-		padding-top: 10px;
-		padding-bottom: 10px;
+
 		font-weight: bold;
 		text-transform: uppercase;
 	}
@@ -1781,5 +1761,281 @@ a.socialIcon:hover, .socialHoverClass {
 	}
 }
 
+.Support {
+	text-align: right;
+	margin-bottom: 20px;
+	
+	
+	.IconMail {
+		background:url("/img/support.png") no-repeat; 
+		padding: 6px 0px 10px 40px;
+		margin-right: 20px;
+		border-right: 1px solid #eee;
+		padding-right: 20px;
+		
+	}
+	
+	.IconSkype {
+		background:url("/img/support.png") no-repeat 0 -43px;
+		padding: 6px 0px 10px 40px;
+		margin-right: 20px;
+		border-right: 1px solid #eee;
+		padding-right: 20px;
+		
+	}
+	
+	.IconPhone {
+		background:url("/img/support.png") no-repeat 0 -85px;
+		padding: 6px 0px 10px 40px;
+		
+	}
+	
+}
+
+.Offer {
+	
+	margin-bottom: 20px;
+	
+	&:hover {
+		
+		.OnBtn {
+			color: #fff;
+			opacity: 1;
+		}
+		
+	}
+	
+	.OnBtn {
+		position: absolute;
+		z-index: 9999;
+		right: 10px;
+		bottom: 10px;
+		text-transform: uppercase;
+		opacity: 0.5;
+		transition:all ease 0.3s;
+		
+	}
+
+	.OfferPrices {
+		padding-left: 0;
+		position: relative;
+		
+		
+		
+		table {
+			margin-top: 0px;
+		}
+		
+		.price {
+			color: #8CC63E;
+			font-size: 16px;
+			font-weight: bold;
+			span {
+				font-size: 12px;
+			}
+		}
+	}
+
+	.OfferImg {
+		padding-right: 0;
+		padding-top: 15px;
+		padding-left: 30px;
+		img {
+			margin: 0 auto;
+			border: 1px solid #f2f2f2;
+		}
+		
+		.LandingLink {
+			margin-top: 5px;
+		}
+		
+	}
+	
+	.OfferInclude {
+		background: #fff;
+		box-shadow: 0px 0px 3px rgba(0,0,0,0.1); 
+		position: relative;
+		z-index: 999;
+	}
+	
+	.DescriptionMore {
+		border-top: 1px solid #f2f2f2;
+		margin: 0 5px;
+		background: #fff;
+		box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+		position: relative;
+		z-index: 900;
+		border-radius: 0 0 3px 3px;
+		
+		.collapse  {
+			border-bottom: 1px solid #f2f2f2;
+			margin-bottom: 5px;
+		}
+		
+		.CollapseInclude {
+			padding: 15px;
+			background: #f8f8f8;
+			
+			.tab-content {
+				padding: 15px;
+				border: 1px solid #ddd;
+				border-top: none;
+				background: #fff;
+				min-height: 150px;
+			}
+			
+		}
+		
+		.ShowHide {
+			padding: 5px;
+		}
+		
+		.btn {
+			border: 1px solid #CCC;
+			background: transparent linear-gradient(to top, #F2F2F2, #FFF) repeat scroll 0% 0%;
+			border-radius: 50px;
+			padding: 2px 5px;
+			color: #ccc;
+			
+			.glyphicon {
+				top: 2px;
+				left: 1px;
+			}
+		
+		}
+		
+	}
+	
+	.Description {
+		padding-right: 0;
+	}
+	
+	.DescriptionInclude {
+		border-left: 1px solid #f2f2f2;
+		border-right: 1px solid #f2f2f2;
+		
+		.Title {
+			padding-left: 10px;
+			padding-top: 15px;
+						
+			small  {
+				margin-right: 10px;
+				span {
+					margin-right: 3px;
+					
+				}
+				
+			}
+			
+			h3 {
+				margin-top: 0px;
+			}
+			
+		}
+		
+	}
+	
+	table {
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+}
+
+.Block {
+	background: #fff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);	
+}
+
+.BlockPadding {
+	padding: 15px;
+	background: #fff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	
+	h5 {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}
+
+
+.Select {
+	
+	.btn {
+		background: #fff;
+		border:1px solid  #ccc;
+		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+		color: #777;
+		
+		.caret {
+			color: #ccc;
+		}
+	}
+}
+
+#custom-search-input{
+    padding: 0px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #ccc;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+    border-radius: 0px;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 14px;
+    color: #ccc;
+}
+
+.Sort {
+	
+	.text {
+		float: left;
+		margin-right: 10px;
+		position: relative;
+		top: 6px;
+	}
+	
+	.Select {
+		float: left;
+	}
+	.btn {
+		float: right;
+	}
+	.UpDown {
+		border: 1px solid #CCC;
+		background: linear-gradient(to top, #F2F2F2, #FFF) repeat;
+		color: #ccc;
+		padding-left: 5px;
+		padding-right: 5px;
+		
+		span {
+			font-size: 12px;
+		}
+		
+	}
+}
 
 

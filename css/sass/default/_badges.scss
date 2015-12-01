@@ -7,7 +7,7 @@
 .badge {
   display: inline-block;
   min-width: 10px;
-  padding: 3px 7px;
+  padding: 3px 10px;
   font-size: $font-size-small;
   font-weight: $badge-font-weight;
   color: $badge-color;
@@ -15,7 +15,7 @@
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: $badge-bg;
+  background-color: #e2e2e2;
   border-radius: $badge-border-radius;
 
   // Empty badges collapse automatically (not available in IE8)

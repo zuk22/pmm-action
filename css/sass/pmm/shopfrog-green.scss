@@ -4,8 +4,8 @@ $medium: #7dc31f;
 $light: #e0f09a;
 $white: #fff;
 
-$linktext: #777;
-$linktexthover: #7dc31f; 
+$linktext: #38B5E6;
+$linktexthover: #3094bb; 
 
 $butback: #7dc31f;
 $butbackhover: #87944d;
@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-	
+	color: $linktexthover;
 	@include trans(color, 0.5s);	
 }
 

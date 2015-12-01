@@ -3,11 +3,14 @@
 	
 <?php include($_SERVER['DOCUMENT_ROOT']. '/templates/nav.html'); ?>
 	
-	<div class="container">
+	<div class="container Support">
 		<div class="row">
-			<div class="col-sm-4"></div>
-			<div class="col-sm-4"></div>
-			<div class="col-sm-4"></div>
+			
+			<div class="col-sm-12">
+				<a class="IconMail" href="#">support@pmm-action.ru</a>
+				<a class="IconSkype"  href="#">pmm-action</a>
+				<b class="IconPhone">7 (495) 269-00-99</b> <span>( с 10:00 до 18:00 Мск. )</span>
+			</div>
 		</div>
 	</div><!--container-->
 	
