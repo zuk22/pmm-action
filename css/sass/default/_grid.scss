@@ -54,8 +54,14 @@
 // Columns, offsets, pushes, and pulls for extra small devices like
 // smartphones.
 
-@include make-grid(xs);
 
+@media (min-width: 320px) {
+	@include make-grid(xs);
+	.nav li a {
+	    padding: 10px;
+    }
+	
+}
 
 // Small grid
 //
@@ -66,12 +72,13 @@
   @include make-grid(sm);
   
    .nav li a {
-	    padding:20px 5px;
+	    padding:20px 10px;
     }
     
-    .Subscribe {
-	    text-align: center;
+    .brand {
+	    width: 180px;
     }
+  
   
 }
 
@@ -87,9 +94,11 @@
 	    padding:20px 10px;
     }
     
-    .Subscribe {
-	    text-align: right;
+     .brand {
+	    width: 220px;
     }
+    
+  
   
 }
 
