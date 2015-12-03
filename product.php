@@ -244,7 +244,7 @@
 	</div><!--product-main-->
 	
 	
-	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/subscribe.html'); ?> 	
+	 	
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/modal.html'); ?>
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/footer.html'); ?>
 			

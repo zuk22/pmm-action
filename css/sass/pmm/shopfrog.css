@@ -4,7 +4,7 @@ body {
   padding-top: 60px;
   padding-left: 20px;
   padding-right: 20px;
-  background: #f8f8f8; }
+  background: #f2f2f2; }
 
 h1, h3, h4 {
   font-family: 'PT Sans', sans-serif;
@@ -617,6 +617,10 @@ label {
   margin-top: 2px;
   box-shadow: 0px 0px 2px #888888; }
 
+.Bigtitle {
+  margin-bottom: 40px;
+  margin-top: 20px; }
+
 .product-board .PopInfo {
   margin: 0; }
   .product-board .PopInfo .PopBlock {
@@ -626,7 +630,8 @@ label {
       padding-top: 30px;
       padding-left: 90px; }
       .product-board .PopInfo .PopBlock p b {
-        display: block; }
+        display: block;
+        text-transform: uppercase; }
     .product-board .PopInfo .PopBlock div {
       float: left; }
 
@@ -682,6 +687,16 @@ label {
         background-position: 0px -277px; }
       .PopInfo.inIndex .PopBlock .Pay {
         background-position: 0px -409px; }
+      .PopInfo.inIndex .PopBlock .GoodPay {
+        background-position: 0px -540px; }
+      .PopInfo.inIndex .PopBlock .GoodPrice {
+        background-position: 0px -679px; }
+      .PopInfo.inIndex .PopBlock .Effect {
+        background-position: 0px -794px; }
+      .PopInfo.inIndex .PopBlock .NewAd {
+        background-position: 0px -940px; }
+      .PopInfo.inIndex .PopBlock .Wow {
+        background-position: 0px -1073px; }
   .PopInfo .PopBlock {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -1078,9 +1093,6 @@ a.socialIcon:hover, .socialHoverClass {
 
 .Pacman img {
   margin: 0 auto; }
-
-.Bigtitle h1 {
-  font-family: 'Souses'; }
 
 .Subscribe {
   background: #eec401;

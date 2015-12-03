@@ -39,7 +39,7 @@ body {
 	padding-top: 60px;	
 	padding-left: 20px;
 	padding-right: 20px;
-	background: #f8f8f8 ;
+	background: #f2f2f2 ;
 }
 
 h1,
@@ -1000,6 +1000,11 @@ box-shadow: 0px 0px 2px #888888;
 }
 
 
+.Bigtitle {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
 .product-board .PopInfo {
 	margin: 0;
 	.PopBlock {
@@ -1011,6 +1016,7 @@ box-shadow: 0px 0px 2px #888888;
 			
 			b {
 				display: block;
+				text-transform: uppercase;
 				
 			}
 				
@@ -1107,6 +1113,26 @@ box-shadow: 0px 0px 2px #888888;
 			
 			.Pay {
 				background-position: 0px -409px; 
+			}
+			
+			.GoodPay {
+				background-position: 0px -540px; 
+			}
+			
+			.GoodPrice {
+				background-position: 0px -679px; 
+			}
+			
+			.Effect {
+				background-position: 0px -794px; 
+			}
+			
+			.NewAd {
+				background-position: 0px -940px; 
+			}
+			
+			.Wow {
+				background-position: 0px -1073px; 
 			}
 			
 		}
@@ -1700,12 +1726,7 @@ a.socialIcon:hover, .socialHoverClass {
 	}
 }
 
-.Bigtitle {
-	h1 {
-		font-family: 'Souses';
-	}
-	
-}
+
 
 .Subscribe {
 	
