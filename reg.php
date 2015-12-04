@@ -4,119 +4,10 @@
 	
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/nav.html'); ?>
 	
-	<div class="container Bigtitle">
-		<div class="row">
-			<div class="col-sm-12 text-center">
-					<h1>Наша мобильная CPA сеть - развитие вашего бизнеса.</h1>
-				</div><!--col-sm-12-->
-		</div>
-	</div><!--Bigtitle-->
-	
-	<div class="White">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="circle-container">
-						<div class="circlestat" data-dimension="200" data-text="100%" data-width="30" data-fontsize="38" data-percent="100" data-fgcolor="#eec401" data-bgcolor="#eee" data-fill="#ddd"></div>
-						<h3>Привлечение мобильного трафика</h3>
-					</div><!--circle-container-->
-				</div><!--col-sm-3-->
-				<div class="col-sm-3">
-					<div class="circle-container">
-        
-						<div class="circlestat" data-dimension="200" data-text="85%" data-width="30" data-fontsize="38" data-percent="85" data-fgcolor="#b30673" data-bgcolor="#eee" data-fill="#ddd"></div>
-						<h3>Взаимоотношения 
-с партнерами</h3>
-					</div><!--circle-container-->
-				</div><!--col-sm-3-->
-				<div class="col-sm-3">
-					<div class="circle-container">
-        
-						<div class="circlestat" data-dimension="200" data-text="90%" data-width="30" data-fontsize="38" data-percent="90" data-fgcolor="#fd5e00" data-bgcolor="#eee" data-fill="#ddd"></div>
-						<h3>Эффективные лендинги</h3>
-					</div><!--circle-container-->
-				</div><!--col-sm-3-->
-				<div class="col-sm-3">
-					<div class="circle-container">
-        
-						<div class="circlestat" data-dimension="200" data-text="85%" data-width="30" data-fontsize="38" data-percent="85" data-fgcolor="#38b5e6" data-bgcolor="#eee" data-fill="#ddd"></div>
-						<h3>Клиентский сервис</h3>
-					</div><!--circle-container-->
-				</div><!--col-sm-3-->
-			</div><!--row-->
-		</div><!--container-->
-	</div><!--White-->
-	<br><br>
-	<div class="container">
-		<div class="row">
-				
-				<div class="col-sm-12">
-					
-					<div class="PopInfo inIndex clearfix">
-					<div class="row">
-						<div class="col-md-4">
-						<div class="PopBlock"  >
-					<div class="GoodPay"></div>
-					
-					
-					<p><b>Платежеспособная Аудитория</b>Ваш бизнес получает доступ к новой активной и платежеспособной аудитории — мобильным пользователям</p>
-					
- 				</div><!--PopBlock-->
-					</div><!--col-md-4-->
-						<div class="col-md-4">
-					<div class="PopBlock ">
-					<div class="GoodPrice"></div>
-					
-					<p><b>Низкая Стоимость</b>Мобильный трафик пока дешевле традиционного, поэтому стоимость мобильных целевых действий для бизнеса может быть ниже при более высокой конвертации</p>
- 				</div><!--PopBlock-->
-					</div><!--col-md-4-->
-						<div class="col-md-4">
-					<div class="PopBlock ">
-					<div class="Effect"></div>
-					
-					<p><b>Высокая Эффективность</b>Мобильный пользователь сфокусирован на действии, поэтому эффективность мобильных рекламных кампаний выше традиционных контекстных или медийных</p>
- 				</div><!--PopBlock-->
-					</div><!--col-md-4-->
-					</div><!--row-->
-					<div class="row">
-						<div class="col-md-4">
-					<div class="PopBlock ">
-					<div class="NewAd"></div>
-					
-					<p><b>Новая Аудитория</b>Благодаря тому, что значительная часть мобильных посетителей не пересекается с десктопными, эффективно решается проблема «каннибализации» аудитории, привлекаемой через традиционные маркетинговые каналы в интернете</p>
- 				</div><!--PopBlock-->
-					</div><!--col-md-4-->
-						<div class="col-md-4">
-					<div class="PopBlock ">
-					<div class="Wow"></div>
-					
-					<p><b>WOW Эффект</b>Мобильные рекламные кампании позволяют реализовывать нестандартный креатив с использованием возможностей смартфонов (click-2-call, touch screen, геолокация)</p>
- 				</div><!--PopBlock-->
-					</div><!--col-md-4-->
-						<div class="col-md-4">
-							<div class="Registr">
-								<h4>Все очень просто</h4>
-								<p>Зарегистрируйтесь и начните зарабатывать! Мы поможем вам на любом этапе!</p>
-								<a href="reg.php" class="btn btn-lg">Зарегистрироваться</a>
-									
-							</div><!--Registr-->
-					</div><!--col-md-4-->
-					</div><!--row-->
-			</div><!--PopInfo-->
-					
-				</div><!--col-sm-9-->
-				
-		</div><!--row-->	
-	</div><!--container-->
-	
-	<div class="container Pacman">
-		<img class="img-responsive" src="img/pacrich.png" alt="pacrich" width="756" height="179" />
-		
-	</div><!--Pacman-->
-	<div class="White">	
 	<div class="container RegBlock">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
 				<div class="RegForm">
         <div class="modal-header">
         
@@ -304,22 +195,11 @@
       
     </div>
 			</div><!--col-md-6-->
+			<div class="col-md-3"></div>
 			
-			<div class="col-md-4">
-				<ul class="List">
-					<li><span class=" glyphicon glyphicon-ok"></span>Вы платите только за целевые действия потенциальных клиентов</li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Вам доступны готовые мобильные лендинги с проверенной конвертацией</li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Вы получаете доступ к новой для вашего бизнеса мобильной аудитории</li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Мы оказываем профессиональную круглосуточную поддержку наших клиентов</li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Крупным рекламодателям предоставляется индивидуальный менеджер</li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Мы тщательно контролируем качество и прозрачность трафика наших партнеров</li>
-				</ul>
-				<h3>Для рекламодателей</h3>
-				<p class="lead">Становясь клиентом нашей мобильной сети вы получаете доступ к новой аудитории — мобильным пользователям. Ваш бизнес получит максимально таргетированный поток потенциальных клиентов, при этом платите только за достижение целей — заполнение заявок, регистрации, звонки, покупки, заказы, оставленные контактные данные, загрузка и установка приложений.</p>
-			</div><!--col-md-6-->
 		</div><!--row-->
 	</div><!--container-->
-	</div>
+	
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/modal.html'); ?>
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/footer.html'); ?>
 			

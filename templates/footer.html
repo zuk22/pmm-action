@@ -7,9 +7,9 @@
 	<div class="container">
 		<div class="row">
 		
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-3 ">
 				<a href="index.php"><img src="../img/logo.png" alt="logo" width="174" height="37" /></a>
-				
+				<p class="slogan"><small>мы охотимся за вкусными офферами</small></p>
 			</div> <!-- //end span3 -->
 			
 			<div class="col-sm-6 col-md-3">
@@ -99,6 +99,12 @@
   	</script>
   	
   	<script>
+	  	$(function(){
+		  	$('.circlestat').circliful();
+		 });
+  	</script>
+  	
+  	<script>
 	  	$(document).ready(function(){
     $(window).resize(function() {
 
@@ -125,14 +131,25 @@
   	<script>
 	  	$('.selectpicker').selectpicker();
   	</script>
+  	
+  	<script>
+	  	  $('#my-affix').affix({
+    offset: {
+      top: 100
+    , bottom: function () {
+        return (this.bottom = $('.footer').outerHeight(true))
+      }
+    }
+  })
+
+  	</script>
 	
+	<script src="js/circliful.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/modernizr.min.js"></script>	
 	<script src="js/imagesloaded.min.js"></script>	
 	<script src="js/jquery.masonry.min.js"></script>	
-	<!--<script src="js/jquery.rateit.min.js"></script>-->
 	<script src="js/shopfrog.js"></script>
 	<script src="js/select.js"></script>
-	<!--<script src="js/script.js"></script>-->
 	
 	

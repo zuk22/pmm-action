@@ -9,7 +9,7 @@
 			<div class="col-sm-7">
 				<h1>Мы охотимся за вкусными <a href="catalog.php">офферами!</a></h1>
 				<p>Мобильная партнёрская сеть, предоставляющая технические и организационные возможности по проведению<br> рекламных кампаний с оплатой за результат.</p>
-				<p><a class="btn btn-primary btn-lg">Начать</a></p>
+				<p><a class="GoButton btn btn-primary btn-lg">Начать</a></p>
 			</div>
 			<div class="col-sm-5 text-right">
 				<img class="img-responsive hidden-xs" src="img/mainimg.png" alt="mainimg" />
@@ -69,12 +69,12 @@
 							<div class="row">
 							<div class="col-md-3">
 								<div class="Date">
-								22 <span>окт</span>
+								<b>22 </b><span>окт</span>
 								</div>	
 							</div><!--col-md-3-->
 							<div class="col-md-9">
 								<a href="#">
-								<span class="New">новый оффер</span>
+								<span class="New">обновление</span>
 								Средство для увеличения члена Титан гель
 								</a>
 							</div><!--col-md-9-->
@@ -85,7 +85,7 @@
 							<div class="row">
 							<div class="col-md-3">
 								<div class="Date">
-								22 <span>окт</span>
+								<b>16 </b> <span>дек</span>
 								</div>	
 							</div><!--col-md-3-->
 							<div class="col-md-9">
@@ -101,12 +101,12 @@
 							<div class="row">
 							<div class="col-md-3">
 								<div class="Date">
-								22 <span>окт</span>
+								<b>31 </b><span>янв</span>
 								</div>	
 							</div><!--col-md-3-->
 							<div class="col-md-9">
 								<a href="#">
-								<span class="New">новый оффер</span>
+								
 								Билайн Локатор. Целевая конверсия – Ребилл абонента (факт списания денег со счета абонента)
 								</a>
 							</div><!--col-md-9-->
@@ -134,10 +134,17 @@
 				
 	<div id="product-board" class="clearfix">
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/item.html'); ?>
+	<div class="load-more-container">
+		<button class="btn btn-lg load-more">
+			каталог офферов 
+		</button>
+	</div>
 	</div> <!-- //end product-board -->
+	
+	
 	</div><!--White-->
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/modal.html'); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/subscribe.html'); ?>
+	
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/footer.html'); ?>
 			
 </body>

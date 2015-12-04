@@ -47,7 +47,12 @@ b.count {
     -webkit-transition: background-color 0.5s;
     -moz-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    font-weight: 700; }
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+    transition: all ease 0.2s; }
+    .navbar .nav > li > a:hover {
+      border-bottom: 2px solid #FD5E00;
+      color: #FD5E00; }
   .navbar .nav > .active a {
     color: inherit;
     text-decoration: none;
@@ -333,8 +338,24 @@ b.count {
   background-color: #14b602;
   line-height: 50px; }
 
+.GoButton {
+  background: #eec401;
+  font-size: 48px;
+  font-family: 'Souses';
+  margin-top: 20px;
+  border-radius: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-shadow: 0px 1px 2px #c78900; }
+  .GoButton:hover {
+    background: #eec401;
+    color: #fff; }
+
 footer {
   padding: 10px 0; }
+  footer .slogan {
+    color: #ccc;
+    font-size: 13px; }
   footer .BottomFooter {
     border-top: 1px solid #eee;
     margin-top: 20px;
@@ -378,6 +399,8 @@ footer {
 
 .load-more-container {
   text-align: center; }
+  .load-more-container .btn {
+    text-transform: uppercase; }
 
 /*
 *	Animate items
@@ -635,24 +658,36 @@ label {
     .product-board .PopInfo .PopBlock div {
       float: left; }
 
+.lead {
+  font-size: 18px;
+  border-left: 2px solid #7dc31f;
+  padding-left: 15px; }
+
 .NewsBlock {
   background: #fff; }
+  .NewsBlock h4 {
+    margin-top: 13px; }
   .NewsBlock .Date {
     text-align: center;
     border: 1px solid #eee;
-    padding-top: 5px;
-    padding-bottom: 5px; }
+    padding-top: 5px; }
     .NewsBlock .Date span {
-      display: block; }
+      display: block;
+      box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.1) inset;
+      padding-bottom: 3px;
+      padding-top: 2px;
+      margin-top: 6px;
+      background: #f9f9f9; }
   .NewsBlock .News {
     border-top: 1px dotted #eee;
-    padding-top: 10px;
+    padding-top: 15px;
     margin-bottom: 10px; }
     .NewsBlock .News .col-md-9 {
       padding-left: 0; }
     .NewsBlock .News a {
       display: block;
-      color: #777; }
+      color: #777;
+      font-size: 16px; }
       .NewsBlock .News a span {
         display: block; }
         .NewsBlock .News a span.New {
@@ -903,6 +938,18 @@ a.socialIcon:hover, .socialHoverClass {
   #TabContent .form-horizontal .control-label {
     padding-bottom: 7px; }
 
+.FaqContent {
+  background: #fff;
+  min-height: 600px;
+  padding: 15px 60px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1); }
+  .FaqContent .lead {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px; }
+  .FaqContent .panel-group {
+    margin-bottom: 40px; }
+
 #RegModal .modal-body {
   padding: 0; }
 #RegModal .tab-pane {
@@ -913,6 +960,11 @@ a.socialIcon:hover, .socialHoverClass {
   text-align: right;
   margin-bottom: 20px;
   margin-top: 20px; }
+  .Support .Title {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; }
   .Support .IconMail {
     background: url("/img/support.png") no-repeat;
     padding: 6px 0px 10px 40px;
@@ -956,7 +1008,8 @@ a.socialIcon:hover, .socialHoverClass {
   .Offer .OfferImg {
     padding-right: 0;
     padding-top: 15px;
-    padding-left: 30px; }
+    padding-left: 30px;
+    padding-bottom: 15px; }
     .Offer .OfferImg img {
       margin: 0 auto;
       border: 1px solid #f2f2f2; }
@@ -1000,6 +1053,8 @@ a.socialIcon:hover, .socialHoverClass {
         left: 1px; }
   .Offer .Description {
     padding-right: 0; }
+    .Offer .Description .News {
+      padding-right: 30px; }
   .Offer .DescriptionInclude {
     border-left: 1px solid #f2f2f2;
     border-right: 1px solid #f2f2f2; }
@@ -1069,13 +1124,15 @@ a.socialIcon:hover, .socialHoverClass {
   font-size: 14px;
   color: #ccc; }
 
-.Sort .text {
-  float: left;
+.Sort .simpletext {
+  float: right;
   margin-right: 10px;
   position: relative;
-  top: 6px; }
+  top: 7px;
+  margin-right: 5px; }
 .Sort .Select {
-  float: left; }
+  float: right;
+  margin-right: 10px; }
 .Sort .btn {
   float: right; }
 .Sort .UpDown {
@@ -1085,11 +1142,67 @@ a.socialIcon:hover, .socialHoverClass {
   padding-left: 5px;
   padding-right: 5px; }
   .Sort .UpDown span {
-    font-size: 12px; }
+    font-size: 10px; }
+    .Sort .UpDown span.glyphicon-arrow-down {
+      position: relative;
+      left: -2px; }
 
 .White {
   background: #fff;
-  padding-top: 40px; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.circliful {
+  position: relative;
+  margin: 0 auto; }
+
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  display: inline-block; }
+
+.circle-info, .circle-info-half {
+  color: #999; }
+
+.circliful .fa {
+  margin: -10px 3px 0 3px;
+  position: relative;
+  bottom: 4px; }
+
+.circle-container {
+  text-align: center; }
+
+.Registr {
+  min-height: 250px;
+  background: #fff;
+  padding: 20px; }
+  .Registr h4 {
+    font-family: 'Souses';
+    font-size: 24px;
+    margin-bottom: 40px; }
+  .Registr p {
+    margin-bottom: 40px;
+    font-size: 16px; }
+
+.RegBlock .RegForm {
+  border: 1px solid #ddd;
+  background: #fff; }
+.RegBlock ul.List {
+  margin-bottom: 40px; }
+  .RegBlock ul.List li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px; }
+    .RegBlock ul.List li span {
+      color: #7DC31F;
+      position: absolute;
+      left: 0px; }
+
+.circle-container h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal; }
 
 .Pacman img {
   margin: 0 auto; }

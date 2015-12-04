@@ -97,8 +97,17 @@ b.count {
 					text-transform: uppercase;
 					text-shadow: none;
 					@include trans(background-color, 0.5s);
-					font-weight: 700;		
+					font-weight: 700;
+					border-bottom: 2px solid #fff;
+					transition:all ease 0.2s;
+					
+					&:hover {
+						border-bottom: 2px solid #FD5E00;
+						color: #FD5E00;
+					}		
 				}
+				
+				
 			}
 		
 			.active {
@@ -548,9 +557,29 @@ b.count {
 	line-height: 50px;
 }
 
+.GoButton {
+	background: #eec401;
+	font-size: 48px;
+	font-family: 'Souses';
+	margin-top: 20px;
+	border-radius: 100px;
+	padding-left: 60px;
+	padding-right: 60px;
+	text-shadow: 0px 1px 2px #c78900;
+	
+	&:hover {
+		background: #eec401;
+		color: #fff;
+	}
+}
+
 footer {
 	padding: 10px 0;
-
+	
+	.slogan {
+		color: #ccc;
+		font-size: 13px;
+	}
 	
 	.BottomFooter {
 		border-top: 1px solid #eee;
@@ -625,6 +654,10 @@ footer {
 
 .load-more-container {
 	text-align: center;
+	
+	.btn {
+		text-transform: uppercase;
+	}
 }
 
 /*
@@ -1028,22 +1061,38 @@ box-shadow: 0px 0px 2px #888888;
 	}
 }
 
+.lead {
+	font-size: 18px;
+	border-left: 2px solid  #7dc31f;
+	padding-left: 15px;
+}
+
 .NewsBlock {
 	background: #fff;
+	
+	h4 {
+		margin-top: 13px;
+	}
 	
 	.Date {
 		text-align: center;
 		border: 1px solid #eee;
 		padding-top: 5px;
-		padding-bottom: 5px;
+		
+		
 		span {
 			display: block;
+			box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.1) inset;
+			padding-bottom: 3px;
+			padding-top: 2px;
+			margin-top: 6px;
+			background: #f9f9f9;
 		}
 	}
 	
 	.News {
 		border-top: 1px dotted #eee;
-		padding-top: 10px;
+		padding-top: 15px;
 		margin-bottom: 10px;
 		
 		.col-md-9 {
@@ -1053,6 +1102,7 @@ box-shadow: 0px 0px 2px #888888;
 		a {
 			display: block;
 			color: #777;
+			font-size: 16px;
 			span {
 				display: block;
 				
@@ -1425,6 +1475,23 @@ a.socialIcon:hover, .socialHoverClass {
 	
 }
 
+.FaqContent {
+	background: #fff;
+	min-height: 600px;
+	padding: 15px 60px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+	
+	.lead {
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	
+	.panel-group {
+		margin-bottom: 40px;
+	}
+}
+
 #RegModal {
 	.modal-body {
 		padding: 0;
@@ -1441,6 +1508,12 @@ a.socialIcon:hover, .socialHoverClass {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	
+	.Title {
+		float: left;
+		margin: 0;
+		padding: 0;
+		font-size: 16px;
+	}
 	
 	.IconMail {
 		background:url("/img/support.png") no-repeat; 
@@ -1516,6 +1589,7 @@ a.socialIcon:hover, .socialHoverClass {
 		padding-right: 0;
 		padding-top: 15px;
 		padding-left: 30px;
+		padding-bottom: 15px;
 		img {
 			margin: 0 auto;
 			border: 1px solid #f2f2f2;
@@ -1584,6 +1658,11 @@ a.socialIcon:hover, .socialHoverClass {
 	
 	.Description {
 		padding-right: 0;
+		
+		.News {
+			padding-right: 30px;
+		}
+		
 	}
 	
 	.DescriptionInclude {
@@ -1688,15 +1767,17 @@ a.socialIcon:hover, .socialHoverClass {
 
 .Sort {
 	
-	.text {
-		float: left;
+	.simpletext {
+		float: right;
 		margin-right: 10px;
 		position: relative;
-		top: 6px;
+		top: 7px;
+		margin-right: 5px;
 	}
 	
 	.Select {
-		float: left;
+		float: right;
+		margin-right: 10px;
 	}
 	.btn {
 		float: right;
@@ -1709,7 +1790,13 @@ a.socialIcon:hover, .socialHoverClass {
 		padding-right: 5px;
 		
 		span {
-			font-size: 12px;
+			font-size: 10px;
+			
+			&.glyphicon-arrow-down {
+				position: relative;
+				left: -2px;
+			}
+			
 		}
 		
 	}
@@ -1718,6 +1805,80 @@ a.socialIcon:hover, .socialHoverClass {
 .White {
 	background: #fff;
 	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.circliful {
+    position: relative; 
+    margin: 0 auto;
+}
+
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.circle-info, .circle-info-half {
+	color: #999;
+}
+
+.circliful .fa {
+	margin: -10px 3px 0 3px;
+	position: relative;
+	bottom: 4px;
+}
+
+.circle-container {
+	text-align: center;
+}
+
+.Registr {
+	min-height: 250px;
+	background: #fff;
+	padding: 20px;
+	
+	h4 {
+		font-family: 'Souses';
+		font-size: 24px;
+		margin-bottom: 40px;
+	}
+	
+	p {
+		margin-bottom: 40px;
+		font-size: 16px;
+	}
+	
+}
+
+.RegBlock {
+	
+	.RegForm {
+		border: 1px solid #ddd;
+		background: #fff;
+	}
+	
+	ul.List {
+		margin-bottom: 40px;
+		li {
+			margin-bottom: 20px;
+			position: relative;
+			padding-left: 20px;
+			span {
+				color: #7DC31F;
+				position: absolute;
+				left: 0px;	
+			}
+		}
+	}
+}
+
+.circle-container h3 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: normal;
 }
 
 .Pacman {
