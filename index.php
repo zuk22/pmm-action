@@ -6,12 +6,12 @@
 	
 	<div class="jumbotron">
 		<div class="container">
-			<div class="col-sm-7">
+			<div class="col-sm-8">
 				<h1>Мы охотимся за вкусными <a href="catalog.php">офферами!</a></h1>
 				<p>Мобильная партнёрская сеть, предоставляющая технические и организационные возможности по проведению<br> рекламных кампаний с оплатой за результат.</p>
 				<p><a class="GoButton btn btn-primary btn-lg">Начать</a></p>
 			</div>
-			<div class="col-sm-5 text-right">
+			<div class="col-sm-4 text-right">
 				<img class="img-responsive hidden-xs" src="img/mainimg.png" alt="mainimg" />
 			</div>
 		</div><!--container-->

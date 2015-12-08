@@ -2583,7 +2583,7 @@ a.badge:hover, a.badge:focus {
   .jumbotron h1,
   .jumbotron .h1 {
     color: inherit;
-    margin-top: 120px; }
+    margin-top: 20px; }
   .jumbotron p {
     margin-bottom: 10px;
     font-size: 24px;
@@ -3809,7 +3809,7 @@ b.count {
 
 .GoButton {
   background: #eec401;
-  font-size: 48px;
+  font-size: 36px;
   font-family: 'Souses';
   margin-top: 20px;
   border-radius: 100px;
