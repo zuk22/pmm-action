@@ -1049,6 +1049,29 @@ a.socialIcon:hover, .socialHoverClass {
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 999; }
+    .Offer .OfferInclude .Badges {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 999;
+      color: #fff;
+      padding: 0 15px; }
+    .Offer .OfferInclude.New {
+      border: 2px solid #7dc31f; }
+      .Offer .OfferInclude.New .Badges {
+        background: #7dc31f; }
+    .Offer .OfferInclude.Exs {
+      border: 2px solid #eec401; }
+      .Offer .OfferInclude.Exs .Badges {
+        background: #eec401; }
+    .Offer .OfferInclude.Private {
+      border: 2px solid #b30673; }
+      .Offer .OfferInclude.Private .Badges {
+        background: #b30673; }
+    .Offer .OfferInclude.Soon {
+      border: 2px solid #fd5e00; }
+      .Offer .OfferInclude.Soon .Badges {
+        background: #fd5e00; }
     .Offer .OfferInclude .Rate {
       text-align: center; }
       .Offer .OfferInclude .Rate img {

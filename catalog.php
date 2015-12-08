@@ -115,7 +115,8 @@
 			
 				<div class="Offer">
 					
-					<div class="OfferInclude">
+					<div class="OfferInclude New">
+						<div class="Badges">новый</div>
 						<a href="#" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
@@ -226,7 +227,8 @@
 				
 				<div class="Offer">
 					
-					<div class="OfferInclude">
+					<div class="OfferInclude Exs">
+						<div class="Badges">эксклюзиф</div>
 						<a href="#" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
@@ -337,7 +339,119 @@
 				
 				<div class="Offer">
 					
-					<div class="OfferInclude">
+					<div class="OfferInclude Soon">
+						<div class="Badges">скоро</div>
+						<a href="#" class="btn OnBtn">Подключить</a>
+						<div class="row">
+						<div class="col-md-3 OfferImg">
+							<a href="product.php"><img data-large="img/product-4.jpg" src="img/product-4.jpg" alt="img" class="main-img img-responsive" /></a>
+							
+							<div class="LandingLink">
+								<a href="#">http://website.com</a>
+							</div><!--LandingLink-->
+						</div>
+						<div class="col-md-5 Description">
+							<div class="DescriptionInclude">
+							<div class="Title">
+							<h3><a href="product.php">Концентрат Сывороточного Белка</a></h3>
+							<small><span class="glyphicon  glyphicon-calendar"></span>
+							<a href=""> 22 сентября</a></small>
+						
+							<small><span class="glyphicon glyphicon-tags"></span>
+							<a href=""> он-лайн игры</a></small>
+							</div><!--Title-->
+							<table id="OfferDescriptionTable" class="table table-striped ">
+							<tr>
+								<td>eCPC:</td>
+								<td>8%</td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
+							</tr>
+							<tr>
+								<td>Время жизни Cookie:</td>
+								<td>30 дней</td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
+							</tr>
+							<tr>
+								<td>Холд:</td>
+								<td>14 дней</td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
+							</tr>
+							
+							<tr>
+								<td>CR:</td>
+								<td>2 %</td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
+							</tr>
+							<tr>
+								<td>Апрув:</td>
+								<td>14 дней </td>
+								<td><span class="Question" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Время на которое пользователь будет привязан к сессии">?</span></td>
+							</tr>
+							
+						</table>
+							</div><!--Description-->
+						</div><!--col-sm-5-->
+						<div class="col-md-4 OfferPrices">
+							<table class="table ">
+							<tr>
+								<td>Подтверждение заказа:</td>
+								<td class="text-right price">620 <span class="glyphicon glyphicon-ruble"></span></td>
+								
+							</tr>
+							<tr>
+								<td>Цена на лэндинге:</td>
+								<td class="text-right price">1 620 <span class="glyphicon glyphicon-ruble"></span></td>
+								
+							</tr>
+						</table>
+						
+						
+						</div><!--OfferPrices-->
+						
+					</div><!--row-->
+					</div><!--OfferInclude-->
+					<div class="row ">
+						<div class="col-md-12 ">
+						<div class="DescriptionMore">
+						<div class="collapse" id="collapse3">
+						<div class="CollapseInclude">
+	          				
+	          				<ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#description" aria-controls="home" role="tab" data-toggle="tab">Описание</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Условия</a></li>
+    <li role="presentation"><a href="#geo" aria-controls="messages" role="tab" data-toggle="tab">Гео</a></li>
+    <li role="presentation"><a href="#banners" aria-controls="settings" role="tab" data-toggle="tab">Баннера</a></li>
+  </ul>
+	          				
+	          				<div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade in active" id="description">
+	  <p>Мы уверены в качестве часов и гарантируем отсутствие дефектов связанных с внутренним механизмом часов.
+Если покупка не оправдает Ваших ожиданий, Вы можете вернуть или обменять ее в течение 14 дней после получения товара.
+Если возникнут дефекты механизма в течение 365 дней, то мы обменяем часы бесплатно!
+Гарантия доставки. Все наши посылки застрахованы и отправляются надежной курьерской кампанией прямо до вашей двери.
+Все посылки отправляются с описью. Это означает, что Вы имеете возможность осмотреть их перед оплатой</p>
+  </div><!--description-->
+  <div role="tabpanel" class="tab-pane fade" id="profile">...</div>
+  <div role="tabpanel" class="tab-pane fade" id="geo">...</div>
+  <div role="tabpanel" class="tab-pane fade" id="banners">...</div>
+</div>
+	          				
+		          		</div><!--collapse-->
+						</div><!--CollapseInclude-->	
+		          		<div class="text-right ShowHide">
+        				<button class="btn " type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseExample">
+          <span class="More">развернуть</span> <span class="glyphicon glyphicon-menu-down"></span>
+          				</button>
+		          		</div>
+						</div><!--DescriptionMore-->
+						</div><!--DescriptionMore-->
+					</div><!--col-md-12-->
+				</div><!--Offer-->
+				
+				<div class="Offer">
+					
+					<div class="OfferInclude Private">
+						<div class="Badges">приватный</div>
 						<a href="#" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">

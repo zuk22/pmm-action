@@ -1652,6 +1652,49 @@ a.socialIcon:hover, .socialHoverClass {
 		position: relative;
 		z-index: 999;
 		
+		.Badges {
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 999;
+			color: #fff;
+			padding: 0 15px;
+		}
+		
+		&.New {
+			border: 2px solid #7dc31f;
+			
+			.Badges {
+				background: #7dc31f;
+			}
+		}
+		
+		&.Exs {
+			border: 2px solid #eec401;
+			
+			.Badges {
+				background: #eec401;
+			}
+		}
+		
+		&.Private {
+			border: 2px solid #b30673;
+			
+			.Badges {
+				background: #b30673;
+			}
+		}
+		
+		&.Soon {
+			border: 2px solid #fd5e00;
+			
+			.Badges {
+				background: #fd5e00;
+			}
+		}
+		
+		
+		
 		.Rate {
 			text-align: center;
 			img {
