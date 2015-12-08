@@ -117,7 +117,7 @@
 					
 					<div class="OfferInclude New">
 						<div class="Badges">новый</div>
-						<a href="#" class="btn OnBtn">Подключить</a>
+						<a href="catalog.php" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
 							<a href="product.php"><img data-large="img/product-1.jpg" src="img/product-1.jpg" alt="img" class="main-img img-responsive" /></a>
@@ -229,7 +229,7 @@
 					
 					<div class="OfferInclude Exs">
 						<div class="Badges">эксклюзиф</div>
-						<a href="#" class="btn OnBtn">Подключить</a>
+						<a href="catalog.php" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
 							<a href="product.php"><img data-large="img/product-1.jpg" src="img/product-3.jpg" alt="img" class="main-img img-responsive" /></a>
@@ -341,7 +341,7 @@
 					
 					<div class="OfferInclude Soon">
 						<div class="Badges">скоро</div>
-						<a href="#" class="btn OnBtn">Подключить</a>
+						<a href="catalog.php" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
 							<a href="product.php"><img data-large="img/product-4.jpg" src="img/product-4.jpg" alt="img" class="main-img img-responsive" /></a>
@@ -452,7 +452,7 @@
 					
 					<div class="OfferInclude Private">
 						<div class="Badges">приватный</div>
-						<a href="#" class="btn OnBtn">Подключить</a>
+						<a href="catalog.php" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
 							<a href="product.php"><img data-large="img/product-4.jpg" src="img/product-4.jpg" alt="img" class="main-img img-responsive" /></a>
