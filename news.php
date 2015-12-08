@@ -97,16 +97,8 @@
 						
 					</div>
 					<div class="col-md-5 Sort">
-						<!--<span class="text">сортировать по:</span>
-						<div class="Select">
-					<select class="selectpicker show-tick form-control" multiple="" style="display: none;">
-						<option>Страна</option>
-						<option>Цена</option>
-						<option>Сообразить по фильтрам</option>
-					</select>
-					</div><!--Select-->
-						<button class="btn UpDown"><span class="glyphicon glyphicon-arrow-up"></span><span class="glyphicon glyphicon-arrow-down"></span></button>
-					</div>
+						
+					</div><!--Sort-->
 					</div>
 				</div><!--Block-->
 			

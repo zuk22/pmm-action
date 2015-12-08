@@ -1,5 +1,5 @@
 <?php include($_SERVER['DOCUMENT_ROOT']. '/templates/meta.html'); ?>
-<body class="product-page">
+<body class="product-page bluebg">
 	
 <?php include($_SERVER['DOCUMENT_ROOT']. '/templates/nav.html'); ?>
 	

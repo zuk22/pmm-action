@@ -9,14 +9,14 @@
   min-width: 10px;
   padding: 3px 10px;
   font-size: $font-size-small;
-  font-weight: $badge-font-weight;
-  color: $badge-color;
+  color: #777;
   line-height: $badge-line-height;
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: #e2e2e2;
-  border-radius: $badge-border-radius;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  border: 1px solid #eee;
 
   // Empty badges collapse automatically (not available in IE8)
   &:empty {
@@ -37,12 +37,7 @@
 
   // [converter] extracted a& to a.badge
 
-  // Account for badges in navs
-  .list-group-item.active > &,
-  .nav-pills > .active > a > & {
-    color: $badge-active-color;
-    background-color: $badge-active-bg;
-  }
+
 
   .list-group-item > & {
     float: right;

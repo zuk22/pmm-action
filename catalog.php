@@ -1,5 +1,5 @@
 <?php include($_SERVER['DOCUMENT_ROOT']. '/templates/meta.html'); ?>
-<body class="collection-page">
+<body class="bluebg">
 	
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/nav.html'); ?>
 	
@@ -34,7 +34,7 @@
 						<span class="badge">139</span>
 						<a href="#">Сервисы</a>
 					</li>
-					<li class="list-group-item">
+					<li class="list-group-item active">
 						<span class="badge">38</span>
 						<a href="#">Финансы</a>
 					</li>
@@ -57,9 +57,9 @@
 				<div class="BlockPadding">
 					<div class="Select">
 					<select class="selectpicker show-tick form-control" multiple="" style="display: none;">
-						<option>Страна</option>
-						<option>Цена</option>
-						<option>Сообразить по фильтрам</option>
+						<option>Россия</option>
+						<option>Бразилия</option>
+						<option>Никарагуа</option>
 					</select>
 					</div><!--Select-->
 					<div class="checkbox">
@@ -120,10 +120,11 @@
 						<div class="row">
 						<div class="col-md-3 OfferImg">
 							<a href="product.php"><img data-large="img/product-1.jpg" src="img/product-1.jpg" alt="img" class="main-img img-responsive" /></a>
-							
+							<p class="Only"><span>только для мобильных</span></p>
 							<div class="LandingLink">
 								<a href="#">http://website.com</a>
 							</div><!--LandingLink-->
+							<div class="Rate"><img src="img/rate.png" alt="rate" width="83" height="15" /></div>
 						</div>
 						<div class="col-md-5 Description">
 							<div class="DescriptionInclude">
@@ -215,7 +216,7 @@
 						</div><!--CollapseInclude-->	
 		          		<div class="text-right ShowHide">
         				<button class="btn " type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
-          <span class="glyphicon glyphicon-menu-down"></span>
+	        				<span class="More">развернуть</span> <span class="glyphicon glyphicon-menu-down"></span>
           				</button>
 		          		</div>
 						</div><!--DescriptionMore-->
@@ -234,6 +235,7 @@
 							<div class="LandingLink">
 								<a href="#">http://website.com</a>
 							</div><!--LandingLink-->
+							<div class="Rate"><img src="img/rate.png" alt="rate" width="83" height="15" /></div>
 						</div>
 						<div class="col-md-5 Description">
 							<div class="DescriptionInclude">
@@ -325,7 +327,7 @@
 						</div><!--CollapseInclude-->	
 		          		<div class="text-right ShowHide">
         				<button class="btn " type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
-          <span class="glyphicon glyphicon-menu-down"></span>
+          <span class="More">развернуть</span> <span class="glyphicon glyphicon-menu-down"></span>
           				</button>
 		          		</div>
 						</div><!--DescriptionMore-->
@@ -435,7 +437,7 @@
 						</div><!--CollapseInclude-->	
 		          		<div class="text-right ShowHide">
         				<button class="btn " type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseExample">
-          <span class="glyphicon glyphicon-menu-down"></span>
+          <span class="More">развернуть</span> <span class="glyphicon glyphicon-menu-down"></span>
           				</button>
 		          		</div>
 						</div><!--DescriptionMore-->

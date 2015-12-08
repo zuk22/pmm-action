@@ -1,126 +1,133 @@
-/*
-Credits:
-https://github.com/marcaube/bootstrap-magnify
-*/
+$(function(){
+	$(document).bind('masonryconf', function(){
+		var $container = $('#product-board');
+		
+		var cw = 180;
+		cwr = $container.width();
+		if(cwr >= 1200){
+			cw = 200;
+		}
+		if(cwr < 1200){
+			cw = 180;
+		}
+		if(cwr < 767){
+			cw = cwr/3;
+		}
+		if(cwr < 500){
+			cw = cwr/2;
+		}
+		
+		$container.imagesLoaded( function(){
+		  $container.masonry({
+				itemSelector: '.offer',
+				isAnimated: true,
+				columnWidth: cw,
+				animationOptions: {
+					duration: 300
+				}
+		  });
+		});
+	}).trigger('masonryconf');
+	
+});
+
+$(window).resize(function(){
+	// Reflow masonry columns, not really needed in normal life, but web devs will appreciate
+	var $container = $('#product-board');
+	var cw = 180;
+	cwr = $container.width();
+	if(cwr >= 1200){
+		cw = 200;
+	}
+	if(cwr < 1200){
+		cw = 180;
+	}
+	if(cwr < 767){
+		cw = cwr/3;
+	}
+	if(cwr < 520){
+		cw = cwr/2;
+	}
+    $container.masonry( 'option', { columnWidth: cw });
+});
 
 
-!function ($) {
+$(window).load(function(){
+	//Reflow masonry when fonts are loaded
+	$('#product-board').masonry();
+});
 
-    "use strict"; // jshint ;_;
+$(document).ready(function(){
 
+	
+	// Load more on product boards via AJAX
+	$(document).on('click', '.load-more', function(){
+		curLabel = $(this).html();
+		$(this).html('загрузка...');
+	
+		$.ajax({
+			type: 'GET',
+			url: "ajax-content.html",
+			context: $(this)
+		}).done(function(response) {
+			$(this).html(curLabel);
+			var $container = $('#product-board');	
+			var $newElements = $(response).filter('div');
+			$newElements.css({opacity:0});
+			$container.append( $newElements );
+			
+			$newElements.imagesLoaded(function() { 
+				$newElements.css({opacity:1});			
+				$container.masonry('appended', $newElements);
+			});
+		});
+	});
+	
+}); //end doc ready
 
-    /* MAGNIFY PUBLIC CLASS DEFINITION
-     * =============================== */
+function resetNav(){
+	$('.submenu li').removeClass('active');
+			
+	$('.submenu').each(function(){
+		$('li', $(this)).eq(0).addClass('active');					
+	});
+	
+	$('#main-nav li').removeClass('activehover');
+}
 
-    var Magnify = function (element, options) {
-        this.init('magnify', element, options)
-    }
+//HideShow
 
-    Magnify.prototype = {
+	Block = {};
+	
+	Block.Click = function (event){
+		
+		var MainBlock = $(event.target.parentElement);
+		var OpenCloseElem = $(MainBlock).find('.glyphicon-menu-down');
+		event.preventDefault();
+		
+		if($(OpenCloseElem).hasClass('glyphicon-menu-down')){
+			$(OpenCloseElem).removeClass('glyphicon-menu-down').addClass('glyphicon-menu-up');
 
-        constructor: Magnify
+			$(MainBlock).find('.More').text('скрыть');
+			
+		}
+		
+		else if ($(OpenCloseElem).hasClass('glyphicon-menu-up')){
+			$(OpenCloseElem).removeClass('glyphicon-menu-up').addClass('glyphicon-menu-down');
+			
+			$(MainBlock).find('.More').text('развернуть');	
+		}
+		
+	};
 
-        , init: function (type, element, options) {
-            var event = 'mousemove'
-                , eventOut = 'mouseleave';
+	Block.Init = function (){
+		$('.ShowHide button').click(Block.Click);
+		$('.ShowHide .More').click(Block.Click);
+		
+	};
 
-            this.type = type
-            this.$element = $(element)
-            this.options = this.getOptions(options)
-            this.nativeWidth = 0
-            this.nativeHeight = 0
-
-            this.$element.wrap('<div class="magnify" \>');
-            this.$element.parent('.magnify').append('<div class="magnify-large" \>');
-            this.$element.siblings(".magnify-large").css("background","url('" + this.$element.attr("src") + "') no-repeat");
-
-            this.$element.parent('.magnify').on(event + '.' + this.type, $.proxy(this.check, this));
-            this.$element.parent('.magnify').on(eventOut + '.' + this.type, $.proxy(this.check, this));
-        }
-
-        , getOptions: function (options) {
-            options = $.extend({}, $.fn[this.type].defaults, options, this.$element.data())
-
-            if (options.delay && typeof options.delay == 'number') {
-                options.delay = {
-                    show: options.delay
-                    , hide: options.delay
-                }
-            }
-
-            return options
-        }
-
-        , check: function (e) {
-            var container = $(e.currentTarget);
-            var self = container.children('img');
-            var mag = container.children(".magnify-large");
-
-            // Get the native dimensions of the image
-            if(!this.nativeWidth && !this.nativeHeight) {
-                var image = new Image();
-                image.src = self.attr("src");
-
-                this.nativeWidth = image.width;
-                this.nativeHeight = image.height;
-
-            } else {
-
-                var magnifyOffset = container.offset();
-                var mx = e.pageX - magnifyOffset.left;
-                var my = e.pageY - magnifyOffset.top;
-
-                if (mx < container.width() && my < container.height() && mx > 0 && my > 0) {
-                    mag.fadeIn(100);
-                } else {
-                    mag.fadeOut(100);
-                }
-
-                if(mag.is(":visible"))
-                {
-                    var rx = Math.round(mx/container.width()*this.nativeWidth - mag.width()/2)*-1;
-                    var ry = Math.round(my/container.height()*this.nativeHeight - mag.height()/2)*-1;
-                    var bgp = rx + "px " + ry + "px";
-
-                    var px = mx - mag.width()/2;
-                    var py = my - mag.height()/2;
-
-                    mag.css({left: px, top: py, backgroundPosition: bgp});
-                }
-            }
-
-        }
-    }
+$(Block.Init);
 
 
-    /* MAGNIFY PLUGIN DEFINITION
-     * ========================= */
-
-    $.fn.magnify = function ( option ) {
-        return this.each(function () {
-            var $this = $(this)
-                , data = $this.data('magnify')
-                , options = typeof option == 'object' && option
-            if (!data) $this.data('tooltip', (data = new Magnify(this, options)))
-            if (typeof option == 'string') data[option]()
-        })
-    }
-
-    $.fn.magnify.Constructor = Magnify
-
-    $.fn.magnify.defaults = {
-        delay: 0
-    }
 
 
-    /* MAGNIFY DATA-API
-     * ================ */
-
-    $(window).on('load', function () {
-        $('[data-toggle="magnify"]').each(function () {
-            var $mag = $(this);
-            $mag.magnify()
-        })
-    })
-
-} ( window.jQuery );
