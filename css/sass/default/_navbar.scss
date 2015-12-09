@@ -153,8 +153,8 @@
 // JavaScript plugin.
 
 .navbar-toggle {
-  position: relative;
-  float: right;
+  position: absolute;
+  left: 0;
   margin-right: $navbar-padding-horizontal;
   padding: 9px 10px;
   @include navbar-vertical-align(34px);

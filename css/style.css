@@ -879,6 +879,10 @@ ol {
     padding: 10px;
     font-size: 14px; }
 
+  .brand {
+    margin-left: 60px;
+    padding: 15px 10px; }
+
   .Phone.text-right {
     text-align: left; }
 
@@ -1072,6 +1076,10 @@ ol {
   .nav li a {
     padding: 20px 10px;
     font-size: 12px; }
+
+  .brand {
+    margin-left: 0px;
+    padding: 11px 10px; }
 
   .Phone.text-right {
     text-align: right; }
@@ -2444,8 +2452,8 @@ tbody.collapse.in {
       margin-left: -10px; } }
 
 .navbar-toggle {
-  position: relative;
-  float: right;
+  position: absolute;
+  left: 0;
   margin-right: 10px;
   padding: 9px 10px;
   margin-top: 8px;
@@ -3616,11 +3624,9 @@ b.count {
   width: 1px;
   height: 22px; }
 .navbar .brand {
-  margin-left: 0;
   text-shadow: none;
   color: #fff;
   text-transform: uppercase;
-  padding: 11px 10px;
   text-align: center;
   white-space: nowrap;
   float: left;
