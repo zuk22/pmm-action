@@ -880,6 +880,14 @@ ol {
   .nav li a {
     padding: 10px; }
 
+  .Bigtitle h1 {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  #myTab li a {
+    font-size: 10px; }
+
   .Offer .Description {
     padding-right: 10px; }
 
@@ -1045,6 +1053,17 @@ ol {
 
   .nav li a {
     padding: 20px 10px; }
+
+  .FaqContent {
+    padding: 15px 15px; }
+
+  #myTab li a {
+    font-size: 16px; }
+
+  .Bigtitle h1 {
+    font-size: 41px;
+    padding-left: 10px;
+    padding-right: 10px; }
 
   .Offer .OfferPrices {
     padding-left: 10px; }
@@ -1217,6 +1236,9 @@ ol {
 
   .nav li a {
     padding: 20px 10px; }
+
+  .FaqContent {
+    padding: 15px 60px; }
 
   .Offer .OfferPrices {
     padding-left: 0px; }
@@ -4492,7 +4514,6 @@ a.socialIcon:hover, .socialHoverClass {
 .FaqContent {
   background: #fff;
   min-height: 600px;
-  padding: 15px 60px;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1); }
   .FaqContent .lead {
     font-weight: bold;
