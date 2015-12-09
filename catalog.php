@@ -219,7 +219,7 @@
 						</div><!--CollapseInclude-->	
 		          		<div class="text-right ShowHide">
         				<button class="btn " type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
-	        				<span class="More">развернуть</span> <span class="glyphicon glyphicon-menu-down"></span>
+	        				<span class="More">подробнее</span> <span class="glyphicon glyphicon-menu-down"></span>
           				</button>
 		          		</div>
 						</div><!--DescriptionMore-->
@@ -331,7 +331,7 @@
 						</div><!--CollapseInclude-->	
 		          		<div class="text-right ShowHide">
         				<button class="btn " type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
-          <span class="More">развернуть</span> <span class="glyphicon glyphicon-menu-down"></span>
+          <span class="More">подробнее</span> <span class="glyphicon glyphicon-menu-down"></span>
           				</button>
 		          		</div>
 						</div><!--DescriptionMore-->
@@ -442,7 +442,7 @@
 						</div><!--CollapseInclude-->	
 		          		<div class="text-right ShowHide">
         				<button class="btn " type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseExample">
-          <span class="More">развернуть</span> <span class="glyphicon glyphicon-menu-down"></span>
+          <span class="More">подробнее</span> <span class="glyphicon glyphicon-menu-down"></span>
           				</button>
 		          		</div>
 						</div><!--DescriptionMore-->
@@ -553,7 +553,7 @@
 						</div><!--CollapseInclude-->	
 		          		<div class="text-right ShowHide">
         				<button class="btn " type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseExample">
-          <span class="More">развернуть</span> <span class="glyphicon glyphicon-menu-down"></span>
+          <span class="More">подробнее</span> <span class="glyphicon glyphicon-menu-down"></span>
           				</button>
 		          		</div>
 						</div><!--DescriptionMore-->

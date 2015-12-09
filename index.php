@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="col-sm-8">
 				<h1>Мы охотимся за вкусными <a href="catalog.php">офферами!</a></h1>
-				<p>Мобильная партнёрская сеть, предоставляющая технические и организационные возможности по проведению<br> рекламных кампаний с оплатой за результат.</p>
+				<p>Мобильная партнёрская сеть, предоставляющая технические и организационные возможности по проведению рекламных кампаний <br>с оплатой за результат.</p>
 				<p><a href="reg.php" class="GoButton btn btn-primary btn-lg"><span></span>Начать!</a></p>
 			</div>
 			<div class="col-sm-4 text-right">
@@ -132,11 +132,14 @@
 				
 	<div id="product-board" class="clearfix">
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/item.html'); ?>
-	<div class="load-more-container">
-		<button class="btn btn-lg ">
-			каталог офферов 
-		</button>
-	</div>
+	<div class="clearfix"></div>
+	<div class="container">
+		<div class="load-more-container">
+			<button class="btn btn-lg ">
+				каталог офферов 
+			</button>
+		</div>
+	</div><!--container-->
 	</div> <!-- //end product-board -->
 	
 	

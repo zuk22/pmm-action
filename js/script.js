@@ -118,7 +118,7 @@ $(document).ready(function(){
 
 	Block.Init = function (){
 		$('.ShowHide button ').click(Block.Click);
-		$('.ShowHide .More').click(Block.Click);
+		
 		
 	};
 

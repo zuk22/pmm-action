@@ -879,6 +879,10 @@ ol {
     padding: 10px;
     font-size: 14px; }
 
+  .basket {
+    position: absolute;
+    right: 0; }
+
   .brand {
     margin-left: 60px;
     padding: 15px 10px; }
@@ -1076,6 +1080,9 @@ ol {
   .nav li a {
     padding: 20px 10px;
     font-size: 12px; }
+
+  .basket {
+    position: relative; }
 
   .brand {
     margin-left: 0px;
@@ -3679,7 +3686,7 @@ b.count {
   width: 100%; }
 
 .navbar-toggle {
-  height: 61px;
+  height: 59px;
   margin: 0 auto;
   border: none;
   padding: 0 17px;
