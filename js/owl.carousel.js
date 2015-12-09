@@ -1453,9 +1453,9 @@ if (typeof Object.create !== "function") {
 
         items : 5,
         itemsCustom : false,
-        itemsDesktop : [1199, 2],
-        itemsDesktopSmall : [979, 2],
-        itemsTablet : [768, 2],
+        itemsDesktop : [1199, 5],
+        itemsDesktopSmall : [979, 5],
+        itemsTablet : [768, 4],
         itemsTabletSmall : false,
         itemsMobile : [479, 1],
         singleItem : false,

@@ -32,8 +32,7 @@ body {
   font-family: 'PT Sans';
   padding-top: 65px;
   padding-left: 10px;
-  padding-right: 10px;
-  background: #f2f2f2; }
+  padding-right: 10px; }
 
 h1, h3, h4 {
   font-family: 'PT Sans', sans-serif;
@@ -158,6 +157,9 @@ b.count {
 #UserArea {
   margin: 0;
   list-style: none; }
+  #UserArea .dropdown a {
+    padding-left: 5px;
+    padding-right: 5px; }
   #UserArea i {
     font-style: normal; }
   #UserArea span.glyphicon {
@@ -411,7 +413,8 @@ footer {
   padding: 10px 0; }
   footer .slogan {
     color: #777;
-    font-size: 13px; }
+    font-size: 13px;
+    text-align: left; }
   footer .BottomFooter {
     border-top: 1px solid #eee;
     margin-top: 20px;

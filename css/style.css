@@ -876,12 +876,25 @@ ol {
     margin-left: 100%; }
 
   .nav li a {
-    padding: 10px; }
+    padding: 10px;
+    font-size: 14px; }
+
+  .Phone.text-right {
+    text-align: left; }
+
+  .Social.text-right {
+    text-align: left; }
 
   .Bigtitle h1 {
     font-size: 24px;
     padding-left: 10px;
     padding-right: 10px; }
+
+  .jumbotron p {
+    font-size: 18px; }
+
+  .jumbotron h1 {
+    font-size: 24px; }
 
   #myTab li a {
     font-size: 10px; }
@@ -891,7 +904,14 @@ ol {
 
   .OfferImg {
     padding-right: 15px;
-    padding-left: 15px; } }
+    padding-left: 15px; }
+
+  body {
+    background: #fff; }
+
+  .News {
+    padding-right: 25px;
+    padding-left: 25px; } }
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
@@ -1050,7 +1070,17 @@ ol {
     margin-left: 100%; }
 
   .nav li a {
-    padding: 20px 10px; }
+    padding: 20px 10px;
+    font-size: 12px; }
+
+  .Phone.text-right {
+    text-align: right; }
+
+  .Social.text-right {
+    text-align: right; }
+
+  .jumbotron h1 {
+    font-size: 41px; }
 
   .FaqContent {
     padding: 15px 15px; }
@@ -1074,7 +1104,14 @@ ol {
     padding-right: 0px; }
 
   .brand {
-    width: 180px; } }
+    width: 180px; }
+
+  body {
+    background: #f2f2f2; }
+
+  .News {
+    padding-right: 30px;
+    padding-left: 10px; } }
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
@@ -1233,7 +1270,8 @@ ol {
     margin-left: 100%; }
 
   .nav li a {
-    padding: 20px 10px; }
+    padding: 20px 8px;
+    font-size: 14px; }
 
   .FaqContent {
     padding: 15px 60px; }
@@ -1242,7 +1280,17 @@ ol {
     padding-left: 0px; }
 
   .brand {
-    width: 220px; } }
+    width: 220px; }
+
+  body {
+    background: #f2f2f2; }
+
+  .jumbotron h1 {
+    font-size: 51px; }
+
+  .News {
+    padding-right: 30px;
+    padding-left: 10px; } }
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
@@ -1401,7 +1449,21 @@ ol {
     margin-left: 100%; }
 
   .nav li a {
-    padding: 20px 15px; } }
+    padding: 20px 15px;
+    font-size: 14px; }
+
+  body {
+    background: #f2f2f2; }
+
+  .jumbotron h1 {
+    font-size: 61px; }
+
+  .jumbotron p {
+    font-size: 24px; }
+
+  .News {
+    padding-right: 30px;
+    padding-left: 10px; } }
 table {
   background-color: transparent; }
 
@@ -2625,7 +2687,6 @@ a.badge:hover, a.badge:focus {
     margin-top: 20px; }
   .jumbotron p {
     margin-bottom: 10px;
-    font-size: 24px;
     font-weight: 200; }
   .jumbotron > hr {
     border-top-color: #e6e5e6; }
@@ -2639,10 +2700,7 @@ a.badge:hover, a.badge:focus {
       padding-bottom: 10px; }
       .container .jumbotron, .container-fluid .jumbotron {
         padding-left: 40px;
-        padding-right: 40px; }
-      .jumbotron h1,
-      .jumbotron .h1 {
-        font-size: 66px; } }
+        padding-right: 40px; } }
 
 .Webmaster h2 {
   font-size: 66px; }
@@ -3423,7 +3481,6 @@ a:hover {
   transition: color 0.5s; }
 
 body {
-  background: #f9f9f9;
   color: #777; }
 
 .navbar {
@@ -3528,8 +3585,7 @@ body {
   font-family: 'PT Sans';
   padding-top: 65px;
   padding-left: 10px;
-  padding-right: 10px;
-  background: #f2f2f2; }
+  padding-right: 10px; }
 
 h1,
 h3,
@@ -3656,6 +3712,9 @@ b.count {
 #UserArea {
   margin: 0;
   list-style: none; }
+  #UserArea .dropdown a {
+    padding-left: 5px;
+    padding-right: 5px; }
   #UserArea i {
     font-style: normal; }
   #UserArea span.glyphicon {
@@ -3909,7 +3968,8 @@ footer {
   padding: 10px 0; }
   footer .slogan {
     color: #777;
-    font-size: 13px; }
+    font-size: 13px;
+    text-align: left; }
   footer .BottomFooter {
     border-top: 1px solid #eee;
     margin-top: 20px;

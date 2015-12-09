@@ -313,12 +313,12 @@
 		</div><!--row-->
 	</div><!--container-->
 	</div><!--White-->
-	
-	<div class="container Partners">
+	<div class="Partners">
+	<div class="container ">
 		
 		<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/carousel.html'); ?>
 	</div><!--container-->
-	
+	</div>
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/modal.html'); ?>
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/footer.html'); ?>
 			

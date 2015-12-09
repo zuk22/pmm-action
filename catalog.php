@@ -92,11 +92,11 @@
 				
 				<div class="BlockPadding">
 					<div class="row">
-					<div class="col-md-7">
+					<div class="col-md-5">
 						<h5>Все офферы </h5>
 						
 					</div>
-					<div class="col-md-5 Sort">
+					<div class="col-md-7 Sort">
 					
 						
 						<button class="btn UpDown"><span class="glyphicon glyphicon-arrow-up"></span><span class="glyphicon glyphicon-arrow-down"></span></button>
