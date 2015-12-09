@@ -46,16 +46,11 @@
 			
 			<div class="Social col-sm-12 col-md-12 text-right">
 				<ul class="social-network social-circle">
-						
-                        
-                        <li><a href="#" class="icoFacebook" title="Facebook"></a></li>
-                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="skype"><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i><span>pmm-action</span></a></li>
-                        
-                        
-                        
-                    </ul>
-			</div>
+                	<li><a href="#" class="icoFacebook" title="Facebook"></a></li>
+                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="skype"><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i><span>pmm-action</span></a></li>
+                </ul>
+			</div><!--Social-->
 			
 			<div class="col-md-12 BottomFooter">
 				<div class="row">
@@ -75,6 +70,46 @@
 
 	
 	<script src="js/jquery.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script>
+		$('#lines')
+		.prop('number', 0)
+		.animateNumber(
+			{
+				number: 73
+			},
+			1500
+		);
+		
+		$('#lines2')
+		.prop('number', 0)
+		.animateNumber(
+			{
+				number: 586
+			},
+			1500
+		);
+		
+		$('#lines3')
+		.prop('number', 0)
+		.animateNumber(
+			{
+				number: 35000
+			},
+			1500
+		);
+		
+		$('#lines4')
+		.prop('number', 0)
+		.animateNumber(
+			{
+				number: 117
+			},
+			1500
+		);
+		
+		
+	</script>
 	
 	<script>
 		$('#FilterBlock').on('show.bs.dropdown', function () {
@@ -97,46 +132,27 @@
 		  	$('[data-toggle="popover"]').popover()
 	})
   	</script>
+  	
   	<script>
 	  	$(function(){
 		  	$('.circlestat').circliful();
 		 });
   	</script>
   	
-  	<script>
-	  	$(document).ready(function(){
-    $(window).resize(function() {
-
-        ellipses1 = $("#bc1 :nth-child(2)")
-        if ($("#bc1 a:hidden").length >0) {ellipses1.show()} else {ellipses1.hide()}
-        
-        ellipses2 = $("#bc2 :nth-child(2)")
-        if ($("#bc2 a:hidden").length >0) {ellipses2.show()} else {ellipses2.hide()}
-        
-    })
-    
-});
-  	</script>  
-  	<script>
-	  	var skipValues = [
-	  		document.getElementById('skip-value-lower'),
-	  		document.getElementById('skip-value-upper')
-	  	];
-	  	
-	  	skipSlider.noUiSlider.on('update', function( values, handle ) {
-	  		skipValues[handle].innerHTML = values[handle];
-	  	});
-  	</script>
+  	 
+  	
   	<script>
 	  	$('.selectpicker').selectpicker();
   	</script>
+  	
+  	
 	
 	<script src="js/circliful.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/modernizr.min.js"></script>	
 	<script src="js/imagesloaded.min.js"></script>	
 	<script src="js/jquery.masonry.min.js"></script>	
-	<script src="js/script.js"></script>
+	<script src="js/shopfrog.js"></script>
 	<script src="js/select.js"></script>
 	
 	

@@ -5,8 +5,7 @@
 
 .jumbotron {
   padding-top:    $jumbotron-padding;
-  padding-bottom: $jumbotron-padding;
-  margin-bottom: $jumbotron-padding;
+  padding-bottom: 10px;
   color: $jumbotron-color;
   background-color: $jumbotron-bg;
   
@@ -37,7 +36,7 @@
 
   @media screen and (min-width: $screen-sm-min) {
     padding-top:    ($jumbotron-padding * 1.6);
-    padding-bottom: ($jumbotron-padding * 1.6);
+    padding-bottom: 10px;
 
     .container &,
     .container-fluid & {
@@ -51,6 +50,12 @@
    
     }
   }
+}
+
+.Webmaster {
+	h2 {
+		font-size: $jumbotron-heading-font-size;
+	}
 }
 
 .Bigtitle {

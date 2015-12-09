@@ -6,9 +6,6 @@ body {
   padding-right: 20px;
   background: #f2f2f2; }
 
-.bluebg {
-  background: #e0eef4; }
-
 h1, h3, h4 {
   font-family: 'PT Sans', sans-serif;
   font-weight: 700; }
@@ -155,7 +152,10 @@ b.count {
   margin-bottom: 40px; }
   .jumbotron h1 a {
     border-bottom: 5px dotted #38B5E6;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    transition: all ease 0.3s; }
+    .jumbotron h1 a:hover {
+      border-bottom: 5px dotted #3094BB; }
   .jumbotron h1 p {
     margin-bottom: 20px; }
 
@@ -354,14 +354,24 @@ b.count {
     margin-bottom: 20px; }
 
 .GoButton {
-  background: #eec401;
+  background: linear-gradient(to top, #e1a100, #f4da03);
   font-size: 36px;
   font-family: 'Souses';
   margin-top: 20px;
   border-radius: 100px;
-  padding-left: 60px;
-  padding-right: 60px;
-  text-shadow: 0px 1px 2px #c78900; }
+  padding-left: 0px;
+  padding-right: 30px;
+  border-top: none;
+  text-shadow: 0px 1px 2px #c78900;
+  transition: all ease 0.3s;
+  border: 5px solid #f2f2f2; }
+  .GoButton span {
+    background: #e7c700 url("/img/pac.png") no-repeat left center;
+    background-position: 7px 4px;
+    padding: 10px 35px;
+    border: 1px solid #f0cf0b;
+    border-radius: 100px;
+    margin-right: 10px; }
   .GoButton:hover {
     background: #eec401;
     color: #fff; }
@@ -742,6 +752,12 @@ label {
         background-position: 0px -679px; }
       .PopInfo.inIndex .PopBlock .Effect {
         background-position: 0px -794px; }
+      .PopInfo.inIndex .PopBlock .Star {
+        background-position: 0px -1490px; }
+      .PopInfo.inIndex .PopBlock .Rocket {
+        background-position: 0px -1220px; }
+      .PopInfo.inIndex .PopBlock .Support {
+        background-position: 0px -1355px; }
       .PopInfo.inIndex .PopBlock .NewAd {
         background-position: 0px -940px; }
       .PopInfo.inIndex .PopBlock .Wow {
@@ -1015,7 +1031,7 @@ a.socialIcon:hover, .socialHoverClass {
     padding: 6px 0px 10px 40px; }
 
 .Offer {
-  margin-bottom: 20px; }
+  margin-bottom: 15px; }
   .Offer:hover .OnBtn {
     color: #fff;
     opacity: 1; }
@@ -1029,7 +1045,6 @@ a.socialIcon:hover, .socialHoverClass {
     opacity: 0.5;
     transition: all ease 0.3s; }
   .Offer .OfferPrices {
-    padding-left: 0;
     position: relative; }
     .Offer .OfferPrices table {
       margin-top: 0px; }
@@ -1040,9 +1055,7 @@ a.socialIcon:hover, .socialHoverClass {
       .Offer .OfferPrices .price span {
         font-size: 12px; }
   .Offer .OfferImg {
-    padding-right: 0;
     padding-top: 15px;
-    padding-left: 30px;
     padding-bottom: 15px; }
     .Offer .OfferImg img {
       margin: 0 auto;
@@ -1124,14 +1137,12 @@ a.socialIcon:hover, .socialHoverClass {
         top: 2px;
         left: 1px;
         font-size: 11px; }
-  .Offer .Description {
-    padding-right: 0; }
-    .Offer .Description .News {
-      padding-right: 30px; }
+  .Offer .Description .News {
+    padding-right: 30px; }
   .Offer .DescriptionInclude {
     border-left: 1px solid #f2f2f2;
     border-right: 1px solid #f2f2f2;
-    min-height: 320px; }
+    min-height: 330px; }
     .Offer .DescriptionInclude .Title {
       padding-left: 10px;
       padding-top: 15px; }
@@ -1149,6 +1160,25 @@ a.socialIcon:hover, .socialHoverClass {
     margin-top: 20px;
     margin-bottom: 0; }
 
+.MobleButton {
+  margin: 10px; }
+
+.Webmaster {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  .Webmaster h2 {
+    font-family: "Souses"; }
+    .Webmaster h2 a {
+      border-bottom: 5px dotted #38B5E6;
+      padding-bottom: 10px;
+      transition: all ease 0.3s; }
+      .Webmaster h2 a:hover {
+        border-bottom: 5px dotted #3094BB; }
+  .Webmaster .lead {
+    padding-top: 40px;
+    border-left: none;
+    line-height: 36px; }
+
 .Block {
   background: #fff;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); }
@@ -1162,14 +1192,18 @@ a.socialIcon:hover, .socialHoverClass {
     .Block .list-group .list-group-item a {
       color: #777; }
 
+.CatalogPage {
+  margin-top: 15px; }
+
 .BlockPadding {
   padding: 15px;
   background: #fff;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px; }
+  margin-bottom: 15px; }
   .BlockPadding h5 {
     font-weight: bold;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 9px; }
 
 .Select .btn {
   background: #fff;
@@ -1301,6 +1335,20 @@ a.socialIcon:hover, .socialHoverClass {
 
 .Pacman img {
   margin: 0 auto; }
+
+.Numbers {
+  text-align: center; }
+  .Numbers p {
+    font-size: 61px;
+    font-family: "Souses"; }
+
+.AdressBlock h5 {
+  font-weight: bold; }
+.AdressBlock .Adress {
+  background: url("/img/socsprite.png") no-repeat 0px -141px;
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .Subscribe {
   background: #eec401;

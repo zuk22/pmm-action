@@ -3,7 +3,7 @@
 	
 <?php include($_SERVER['DOCUMENT_ROOT']. '/templates/nav.html'); ?>
 	
-	<div class="container Support">
+	<div class="container Support hidden-xs">
 		<div class="row">
 			
 			<div class="col-sm-12">

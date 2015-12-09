@@ -60,6 +60,14 @@
 	.nav li a {
 	    padding: 10px;
     }
+    
+    .Offer .Description {
+		padding-right: 10px;
+	}
+    
+    .OfferImg {
+		padding-right: 15px;
+		padding-left: 15px;}
 	
 }
 
@@ -74,6 +82,19 @@
    .nav li a {
 	    padding:20px 10px;
     }
+    
+    
+    .Offer .OfferPrices {
+	    padding-left: 10px;
+    }
+    
+    .OfferImg {
+		padding-right: 0px;
+		padding-left: 20px;}
+		
+	.Offer .Description {
+		padding-right: 0px;
+	}	
     
     .brand {
 	    width: 180px;
@@ -93,6 +114,11 @@
      .nav li a {
 	    padding:20px 10px;
     }
+    
+    .Offer .OfferPrices {
+	    padding-left: 0px;
+    }
+
     
      .brand {
 	    width: 220px;

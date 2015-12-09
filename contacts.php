@@ -148,7 +148,14 @@
 		</div><!--row-->
 	</div><!--container-->
 	<br>
+	<div class="container AdressBlock">
+		<div class="row">
+			<h5>НАШ АДРЕС</h5>
+		<p class="Adress">Москва, Пресненская набережная, д. 6, стр. 2</p>
+		</div>
+	</div>
 	<div class="Map">
+		
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.590468280104!2d37.53830451602672!3d55.74824429981081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bdcf5c58c73%3A0x92d5b50611b605cc!2z0J_RgNC10YHQvdC10L3RgdC60LDRjyDQvdCw0LEuLCA2INGB0YLRgNC-0LXQvdC40LUgMiwg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEyMzMxNw!5e0!3m2!1sru!2s!4v1449565645784" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 	

@@ -1,9 +1,9 @@
 <?php include($_SERVER['DOCUMENT_ROOT']. '/templates/meta.html'); ?>
-<body class="bluebg">
+<body >
 	
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/nav.html'); ?>
 	
-	<div class="container">
+	<div class="container CatalogPage">
 		<div class="row">
 		
 			<div class="col-sm-3">
@@ -107,7 +107,7 @@
 						<option>Сообразить по фильтрам</option>
 					</select>
 					</div><!--Select-->
-					<span class="simpletext">сортировать по:</span>
+					<span class="simpletext hidden-xs">сортировать по:</span>
 						
 					</div>
 					</div>
@@ -117,7 +117,7 @@
 					
 					<div class="OfferInclude New">
 						<div class="Badges">новый</div>
-						<a href="catalog.php" class="btn OnBtn">Подключить</a>
+						<a href="product.php" class="btn OnBtn hidden-xs ">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
 							<a href="product.php"><img data-large="img/product-1.jpg" src="img/product-1.jpg" alt="img" class="main-img img-responsive" /></a>
@@ -181,7 +181,9 @@
 								
 							</tr>
 						</table>
-						
+						<div class="MobleButton text-right hidden-md hidden-lg hidden-sm">
+							<a href="product.php" class="btn ">Подключить</a>
+						</div>
 						
 						</div><!--OfferPrices-->
 						
@@ -229,7 +231,7 @@
 					
 					<div class="OfferInclude Exs">
 						<div class="Badges">эксклюзиф</div>
-						<a href="catalog.php" class="btn OnBtn">Подключить</a>
+						<a href="product.php" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
 							<a href="product.php"><img data-large="img/product-1.jpg" src="img/product-3.jpg" alt="img" class="main-img img-responsive" /></a>
@@ -341,7 +343,7 @@
 					
 					<div class="OfferInclude Soon">
 						<div class="Badges">скоро</div>
-						<a href="catalog.php" class="btn OnBtn">Подключить</a>
+						<a href="product.php" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
 							<a href="product.php"><img data-large="img/product-4.jpg" src="img/product-4.jpg" alt="img" class="main-img img-responsive" /></a>
@@ -452,7 +454,7 @@
 					
 					<div class="OfferInclude Private">
 						<div class="Badges">приватный</div>
-						<a href="catalog.php" class="btn OnBtn">Подключить</a>
+						<a href="product.php" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
 							<a href="product.php"><img data-large="img/product-4.jpg" src="img/product-4.jpg" alt="img" class="main-img img-responsive" /></a>

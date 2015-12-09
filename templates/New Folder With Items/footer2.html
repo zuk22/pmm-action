@@ -1,0 +1,117 @@
+
+<div class="clearfix"></div>
+
+
+<footer>
+	
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-sm-6 col-md-3 ">
+				<a href="index.php"><img src="../img/logo.png" alt="logo" width="174" height="37" /></a>
+				<p class="slogan"><small>Мы охотимся за вкусными офферами</small></p>
+			</div> <!-- //end span3 -->
+			
+			<div class="col-sm-6 col-md-3">
+				
+				<ul>
+					<li><a  href="#">вэбмастерам</a></li>
+					<li><a href="#">рекламодателям</a></li>
+					<li><a href="#">офферы <b class="count">132</b></a></li>
+				</ul>
+
+				
+				
+			</div> <!-- //end span3 -->
+			<div class="col-sm-6 col-md-3">
+				
+				<ul>
+				
+					<li><a href="#">информация</a></li>
+					<li><a href="#">новости</a></li>
+					<li><a href="#">контакты</a></li>
+					
+				</ul>
+			</div> <!-- //end span3 -->
+			
+			<div class="col-sm-6 col-md-3 ">
+				
+				
+				<p class="Phone text-right">
+				+7 <b>(499)</b> 110-08-29 <br>
+				<span> (10:00 - 19:00) по Москве</span>
+				<a href="mailto:support@pmm-action.ru">support@pmm-action.ru</a>
+				</p>
+			</div> <!-- //end span3 -->
+			
+			<div class="Social col-sm-12 col-md-12 text-right">
+				<ul class="social-network social-circle">
+						
+                        
+                        <li><a href="#" class="icoFacebook" title="Facebook"></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="skype"><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i><span>pmm-action</span></a></li>
+                        
+                        
+                        
+                    </ul>
+			</div>
+			
+			<div class="col-md-12 BottomFooter">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="text-left">&copy; 2015 pmm-action</p>
+					</div>
+					<div class="col-sm-6">
+						<p class="text-right"></p>
+					</div>
+					
+				</div>
+			</div>
+									
+		</div><!--row-->
+	</div>
+</footer>
+
+	
+	<script src="js/jquery.js"></script>
+	
+	<script>
+		$('#FilterBlock').on('show.bs.dropdown', function () {
+
+  			})
+  			
+  		//Размеры
+  		$('#radioBtn a').on('click', function(){
+	  		var sel = $(this).data('title');
+	  		var tog = $(this).data('toggle');
+	  		$('#'+tog).prop('value', sel);
+    
+	  		$('a[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').removeClass('active').addClass('notActive');
+	  		$('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
+})	
+  			
+  	</script>
+  	<script>
+	  	$(function () {
+		  	$('[data-toggle="popover"]').popover()
+	})
+  	</script>
+  	<script>
+	  	$(function(){
+		  	$('.circlestat').circliful();
+		 });
+  	</script>
+
+  	<script>
+	  	$('.selectpicker').selectpicker();
+  	</script>
+	
+	<script src="js/circliful.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/modernizr.min.js"></script>		
+	<script src="js/jquery.masonry.min.js"></script>	
+	<script src="js/script.js"></script>
+	<script src="js/select.js"></script>
+	
+	

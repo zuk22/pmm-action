@@ -9,18 +9,16 @@
 			<div class="col-sm-8">
 				<h1>Мы охотимся за вкусными <a href="catalog.php">офферами!</a></h1>
 				<p>Мобильная партнёрская сеть, предоставляющая технические и организационные возможности по проведению<br> рекламных кампаний с оплатой за результат.</p>
-				<p><a class="GoButton btn btn-primary btn-lg">Начать</a></p>
+				<p><a class="GoButton btn btn-primary btn-lg"><span></span>Начать!</a></p>
 			</div>
 			<div class="col-sm-4 text-right">
 				<img class="img-responsive hidden-xs" src="img/mainimg.png" alt="mainimg" />
 			</div>
 		</div><!--container-->
-	</div>
-	
-	
+	</div><!--jumbotron-->
 	<div class="container NewsContainer">
 		<div class="row">
-				<div class="col-sm-9">
+				<div class="col-md-9">
 					
 					<div class="PopInfo inIndex clearfix">
 					<div class="row">
@@ -61,7 +59,7 @@
 			</div><!--PopInfo-->
 					
 				</div><!--col-sm-9-->
-				<div class="col-sm-3 NewsBlock">
+				<div class="col-md-3 NewsBlock">
 					
 						<h4>Новости</h4>
 						
@@ -115,13 +113,13 @@
 						
 				</div><!--NewsBlock-->
 		</div><!--row-->	
-	</div><!--container-->
+	</div><!--NewsContainer-->
 	
 	<div class="container Pacman">
 		
 			<img class="img-responsive" src="img/pacmaneat.png" alt="pacmaneat" width="756" height="125" />
 		
-	</div>
+	</div><!--Pacman-->
 	<div class="White">
 	<div class="container hidden-xs">
 		<div id="radioBtn" class="btn-group board-filters clearfix">
@@ -135,16 +133,32 @@
 	<div id="product-board" class="clearfix">
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/item.html'); ?>
 	<div class="load-more-container">
-		<button class="btn btn-lg load-more">
+		<button class="btn btn-lg ">
 			каталог офферов 
 		</button>
 	</div>
 	</div> <!-- //end product-board -->
 	
 	
+	<div class="Webmaster">
+		<div class="container Pacman">
+		
+			<img class="img-responsive" src="img/pacmaster.png" alt="pacmaster" width="756" height="125" />
+			
+			<div class="row">
+				<div class="col-md-5">
+					<h2><A href="#">Вэбмастеру</A></h2>
+				</div><!--col-sm-4-->
+				<div class="col-md-7">
+					<p class="lead">Хотите увеличить доход от монетизации вебсайтов? Мы предлагаем работу с крупнейшими рекламодателями с оплатой по CPI, CPC, CPM и CPA модели. Автоматический таргетинг по устройствам, странам, тематике сайтов. Еженедельные выплаты. Установка кода за 2 минуты.</p>
+				</div><!--col-sm-8-->
+			</div>
+		
+	</div><!--Pacman-->
+	</div><!--Webmaster-->
+	
 	</div><!--White-->
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/modal.html'); ?>
-	
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/footer.html'); ?>
 			
 </body>

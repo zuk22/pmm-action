@@ -677,8 +677,8 @@ ol {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 10px;
+  padding-right: 10px; }
   .container:before, .container:after {
     content: " ";
     display: table; }
@@ -686,19 +686,19 @@ ol {
     clear: both; }
   @media (min-width: 768px) {
     .container {
-      width: 750px; } }
+      width: 740px; } }
   @media (min-width: 992px) {
     .container {
-      width: 970px; } }
+      width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      width: 1200px; } }
+      width: 1190px; } }
 
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 10px;
+  padding-right: 10px; }
   .container-fluid:before, .container-fluid:after {
     content: " ";
     display: table; }
@@ -706,8 +706,8 @@ ol {
     clear: both; }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px; }
+  margin-left: -10px;
+  margin-right: -10px; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -717,8 +717,8 @@ ol {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 10px;
+  padding-right: 10px; }
 
 @media (min-width: 320px) {
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
@@ -878,7 +878,14 @@ ol {
     margin-left: 100%; }
 
   .nav li a {
-    padding: 10px; } }
+    padding: 10px; }
+
+  .Offer .Description {
+    padding-right: 10px; }
+
+  .OfferImg {
+    padding-right: 15px;
+    padding-left: 15px; } }
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
@@ -1038,6 +1045,16 @@ ol {
 
   .nav li a {
     padding: 20px 10px; }
+
+  .Offer .OfferPrices {
+    padding-left: 10px; }
+
+  .OfferImg {
+    padding-right: 0px;
+    padding-left: 20px; }
+
+  .Offer .Description {
+    padding-right: 0px; }
 
   .brand {
     width: 180px; } }
@@ -1200,6 +1217,9 @@ ol {
 
   .nav li a {
     padding: 20px 10px; }
+
+  .Offer .OfferPrices {
+    padding-left: 0px; }
 
   .brand {
     width: 220px; } }
@@ -1899,8 +1919,8 @@ select[multiple].input-lg {
 .form-horizontal .checkbox {
   min-height: 29px; }
 .form-horizontal .form-group {
-  margin-left: -15px;
-  margin-right: -15px; }
+  margin-left: -10px;
+  margin-right: -10px; }
   .form-horizontal .form-group:before, .form-horizontal .form-group:after {
     content: " ";
     display: table; }
@@ -1911,7 +1931,7 @@ select[multiple].input-lg {
     margin-bottom: 0;
     padding-top: 7px; } }
 .form-horizontal .has-feedback .form-control-feedback {
-  right: 15px; }
+  right: 10px; }
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
     padding-top: 14.33333px;
@@ -2262,8 +2282,8 @@ tbody.collapse.in {
 
 .navbar-collapse {
   overflow-x: visible;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch; }
@@ -2302,8 +2322,8 @@ tbody.collapse.in {
 .container > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px; }
+  margin-right: -10px;
+  margin-left: -10px; }
   @media (min-width: 768px) {
     .container > .navbar-header,
     .container > .navbar-collapse,
@@ -2329,7 +2349,7 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding: 14px 15px;
+  padding: 14px 10px;
   font-size: 20px;
   line-height: 22px;
   height: 50px; }
@@ -2339,12 +2359,12 @@ tbody.collapse.in {
     display: block; }
   @media (min-width: 768px) {
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-      margin-left: -15px; } }
+      margin-left: -10px; } }
 
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 15px;
+  margin-right: 10px;
   padding: 9px 10px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -2365,7 +2385,7 @@ tbody.collapse.in {
       display: none; } }
 
 .navbar-nav {
-  margin: 7px -15px; }
+  margin: 7px -10px; }
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2407,7 +2427,7 @@ tbody.collapse.in {
 
   .navbar-right {
     float: right !important;
-    margin-right: -15px; }
+    margin-right: -10px; }
     .navbar-right ~ .navbar-right {
       margin-right: 0; } }
 .pagination {
@@ -2576,8 +2596,7 @@ a.badge:hover, a.badge:focus {
 
 .jumbotron {
   padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 10px;
   color: inherit;
   background-color: white; }
   .jumbotron h1,
@@ -2597,13 +2616,16 @@ a.badge:hover, a.badge:focus {
   @media screen and (min-width: 768px) {
     .jumbotron {
       padding-top: 32px;
-      padding-bottom: 32px; }
+      padding-bottom: 10px; }
       .container .jumbotron, .container-fluid .jumbotron {
         padding-left: 40px;
         padding-right: 40px; }
       .jumbotron h1,
       .jumbotron .h1 {
         font-size: 66px; } }
+
+.Webmaster h2 {
+  font-size: 66px; }
 
 .Bigtitle h1 {
   font-family: 'Souses'; }
@@ -3464,9 +3486,6 @@ body {
   padding-right: 20px;
   background: #f2f2f2; }
 
-.bluebg {
-  background: #e0eef4; }
-
 h1,
 h3,
 h4 {
@@ -3615,7 +3634,10 @@ b.count {
   margin-bottom: 40px; }
   .jumbotron h1 a {
     border-bottom: 5px dotted #38B5E6;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    transition: all ease 0.3s; }
+    .jumbotron h1 a:hover {
+      border-bottom: 5px dotted #3094BB; }
   .jumbotron h1 p {
     margin-bottom: 20px; }
 
@@ -3814,14 +3836,24 @@ b.count {
     margin-bottom: 20px; }
 
 .GoButton {
-  background: #eec401;
+  background: linear-gradient(to top, #e1a100, #f4da03);
   font-size: 36px;
   font-family: 'Souses';
   margin-top: 20px;
   border-radius: 100px;
-  padding-left: 60px;
-  padding-right: 60px;
-  text-shadow: 0px 1px 2px #c78900; }
+  padding-left: 0px;
+  padding-right: 30px;
+  border-top: none;
+  text-shadow: 0px 1px 2px #c78900;
+  transition: all ease 0.3s;
+  border: 5px solid #f2f2f2; }
+  .GoButton span {
+    background: #e7c700 url("/img/pac.png") no-repeat left center;
+    background-position: 7px 4px;
+    padding: 10px 35px;
+    border: 1px solid #f0cf0b;
+    border-radius: 100px;
+    margin-right: 10px; }
   .GoButton:hover {
     background: #eec401;
     color: #fff; }
@@ -4221,6 +4253,12 @@ label {
         background-position: 0px -679px; }
       .PopInfo.inIndex .PopBlock .Effect {
         background-position: 0px -794px; }
+      .PopInfo.inIndex .PopBlock .Star {
+        background-position: 0px -1490px; }
+      .PopInfo.inIndex .PopBlock .Rocket {
+        background-position: 0px -1220px; }
+      .PopInfo.inIndex .PopBlock .Support {
+        background-position: 0px -1355px; }
       .PopInfo.inIndex .PopBlock .NewAd {
         background-position: 0px -940px; }
       .PopInfo.inIndex .PopBlock .Wow {
@@ -4495,7 +4533,7 @@ a.socialIcon:hover, .socialHoverClass {
     padding: 6px 0px 10px 40px; }
 
 .Offer {
-  margin-bottom: 20px; }
+  margin-bottom: 15px; }
   .Offer:hover .OnBtn {
     color: #fff;
     opacity: 1; }
@@ -4509,7 +4547,6 @@ a.socialIcon:hover, .socialHoverClass {
     opacity: 0.5;
     transition: all ease 0.3s; }
   .Offer .OfferPrices {
-    padding-left: 0;
     position: relative; }
     .Offer .OfferPrices table {
       margin-top: 0px; }
@@ -4520,9 +4557,7 @@ a.socialIcon:hover, .socialHoverClass {
       .Offer .OfferPrices .price span {
         font-size: 12px; }
   .Offer .OfferImg {
-    padding-right: 0;
     padding-top: 15px;
-    padding-left: 30px;
     padding-bottom: 15px; }
     .Offer .OfferImg img {
       margin: 0 auto;
@@ -4604,14 +4639,12 @@ a.socialIcon:hover, .socialHoverClass {
         top: 2px;
         left: 1px;
         font-size: 11px; }
-  .Offer .Description {
-    padding-right: 0; }
-    .Offer .Description .News {
-      padding-right: 30px; }
+  .Offer .Description .News {
+    padding-right: 30px; }
   .Offer .DescriptionInclude {
     border-left: 1px solid #f2f2f2;
     border-right: 1px solid #f2f2f2;
-    min-height: 320px; }
+    min-height: 330px; }
     .Offer .DescriptionInclude .Title {
       padding-left: 10px;
       padding-top: 15px; }
@@ -4629,6 +4662,25 @@ a.socialIcon:hover, .socialHoverClass {
     margin-top: 20px;
     margin-bottom: 0; }
 
+.MobleButton {
+  margin: 10px; }
+
+.Webmaster {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  .Webmaster h2 {
+    font-family: "Souses"; }
+    .Webmaster h2 a {
+      border-bottom: 5px dotted #38B5E6;
+      padding-bottom: 10px;
+      transition: all ease 0.3s; }
+      .Webmaster h2 a:hover {
+        border-bottom: 5px dotted #3094BB; }
+  .Webmaster .lead {
+    padding-top: 40px;
+    border-left: none;
+    line-height: 36px; }
+
 .Block {
   background: #fff;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); }
@@ -4642,14 +4694,18 @@ a.socialIcon:hover, .socialHoverClass {
     .Block .list-group .list-group-item a {
       color: #777; }
 
+.CatalogPage {
+  margin-top: 15px; }
+
 .BlockPadding {
   padding: 15px;
   background: #fff;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px; }
+  margin-bottom: 15px; }
   .BlockPadding h5 {
     font-weight: bold;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 9px; }
 
 .Select .btn {
   background: #fff;
@@ -4781,6 +4837,20 @@ a.socialIcon:hover, .socialHoverClass {
 
 .Pacman img {
   margin: 0 auto; }
+
+.Numbers {
+  text-align: center; }
+  .Numbers p {
+    font-size: 61px;
+    font-family: "Souses"; }
+
+.AdressBlock h5 {
+  font-weight: bold; }
+.AdressBlock .Adress {
+  background: url("/img/socsprite.png") no-repeat 0px -141px;
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .Subscribe {
   background: #eec401;
