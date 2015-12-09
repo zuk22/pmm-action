@@ -1129,6 +1129,20 @@ box-shadow: 0px 0px 2px #888888;
 		padding-top: 15px;
 		margin-bottom: 10px;
 		
+		.Title {
+			h3 {
+				a {
+					font-size: 20px;
+					color: #777;
+					
+					&:hover {
+						color: #000;
+					}
+					
+				}
+			}
+		}
+		
 		.col-md-9 {
 			padding-left: 0;
 		}

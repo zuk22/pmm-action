@@ -111,7 +111,7 @@ $(document).ready(function(){
 			
 			
 		
-			$(MainBlock).find('.More').text('подробннее');	
+			$(MainBlock).find('.More').text('подробнее');	
 		}
 		
 	};
