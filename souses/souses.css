@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Souses';
+    src: local('Souses'), url('souses.woff2') format('woff2'), url('souses.woff') format('woff'), url('souses.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}

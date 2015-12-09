@@ -1,5 +1,4 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import "http://webfonts.ru/import/souses.css";
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -511,7 +510,6 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.42857;
   color: #666366;
@@ -3501,8 +3499,33 @@ footer {
   footer p {
     color: #323132; }
 
+@font-face {
+  font-family: 'Souses';
+  src: local("Souses"), url("souses.woff2") format("woff2"), url("souses.woff") format("woff"), url("souses.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+@font-face {
+  font-family: 'PT Sans';
+  src: local("PT Sans"), local("PTSans-Regular"), url("ptsans.woff2") format("woff2"), url("ptsans.woff") format("woff"), url("ptsans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'PT Sans';
+  src: local("PT Sans Italic"), local("PTSans-Italic"), url("ptsansitalic.woff2") format("woff2"), url("ptsansitalic.woff") format("woff"), url("ptsansitalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: 'PT Sans';
+  src: local("PT Sans Bold"), local("PTSans-Bold"), url("ptsansbold.woff2") format("woff2"), url("ptsansbold.woff") format("woff"), url("ptsansbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'PT Sans';
+  src: local("PT Sans Bold Italic"), local("PTSans-BoldItalic"), url("ptsansbolditalic.woff2") format("woff2"), url("ptsansbolditalic.woff") format("woff"), url("ptsansbolditalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans';
   padding-top: 65px;
   padding-left: 10px;
   padding-right: 10px;
