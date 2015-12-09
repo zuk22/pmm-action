@@ -36,7 +36,7 @@
 								<div class="pricing clearfix">
 							<p class="bigprice">
 								<small>награда:</small>
-								<span class="total NewPrice"> 2 650</span><span class="cur">&#8381;</span>
+								<span class="total NewPrice"> 2 650</span><span class="glyphicon glyphicon-ruble"></span>
 							</p>
 							
 						</div><!--pricing-->								
@@ -110,7 +110,7 @@
 								<div class="pricing clearfix">
 							<p class="bigprice">
 								<small>награда:</small>
-								<span class="total NewPrice"> 2 650</span><span class="cur">&#8381;</span>
+								<span class="total NewPrice"> 2 650</span><span class="glyphicon glyphicon-ruble"></span>
 							</p>
 							
 						</div><!--pricing-->								</div>

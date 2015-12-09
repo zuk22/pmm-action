@@ -18,7 +18,7 @@
 	</div><!--jumbotron-->
 	<div class="container NewsContainer">
 		<div class="row">
-				<div class="col-md-9">
+				<div class="col-md-9 hidden-xs">
 					
 					<div class="PopInfo inIndex clearfix">
 					<div class="row">
@@ -65,12 +65,12 @@
 						
 						<div class="News">
 							<div class="row">
-							<div class="col-md-3">
+							<div class="col-xs-3">
 								<div class="Date">
 								<b>22 </b><span>окт</span>
 								</div>	
 							</div><!--col-md-3-->
-							<div class="col-md-9">
+							<div class="col-xs-9">
 								<a href="#">
 								<span class="New">обновление</span>
 								Средство для увеличения члена Титан гель
@@ -81,12 +81,12 @@
 						
 						<div class="News">
 							<div class="row">
-							<div class="col-md-3">
+							<div class="col-xs-3">
 								<div class="Date">
 								<b>16 </b> <span>дек</span>
 								</div>	
 							</div><!--col-md-3-->
-							<div class="col-md-9">
+							<div class="col-xs-9">
 								<a href="#">
 								<span class="New">новый оффер</span>
 								Приложение livegames
@@ -97,12 +97,12 @@
 						
 						<div class="News">
 							<div class="row">
-							<div class="col-md-3">
+							<div class="col-xs-3">
 								<div class="Date">
 								<b>31 </b><span>янв</span>
 								</div>	
 							</div><!--col-md-3-->
-							<div class="col-md-9">
+							<div class="col-xs-9">
 								<a href="#">
 								
 								Билайн Локатор. Целевая конверсия – Ребилл абонента (факт списания денег со счета абонента)
@@ -140,14 +140,14 @@
 	</div> <!-- //end product-board -->
 	
 	
-	<div class="Webmaster">
+	<div class="Webmaster hidden-xs">
 		<div class="container Pacman">
 		
 			<img class="img-responsive" src="img/pacmaster.png" alt="pacmaster" width="756" height="125" />
 			
 			<div class="row">
 				<div class="col-md-5">
-					<h2><A href="#">Вэбмастеру</A></h2>
+					<h2><A href="web2.php">Вэбмастеру</A></h2>
 				</div><!--col-sm-4-->
 				<div class="col-md-7">
 					<p class="lead">Хотите увеличить доход от монетизации вебсайтов? Мы предлагаем работу с крупнейшими рекламодателями с оплатой по CPI, CPC, CPM и CPA модели. Автоматический таргетинг по устройствам, странам, тематике сайтов. Еженедельные выплаты. Установка кода за 2 минуты.</p>

@@ -312,7 +312,13 @@
 			</div><!--col-md-6-->
 		</div><!--row-->
 	</div><!--container-->
-	</div>
+	</div><!--White-->
+	
+	<div class="container Partners">
+		
+		<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/carousel.html'); ?>
+	</div><!--container-->
+	
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/modal.html'); ?>
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/footer.html'); ?>
 			

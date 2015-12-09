@@ -37,8 +37,8 @@
 body {
 	font-family: 'PT Sans', sans-serif;
 	padding-top: 65px;	
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background: #f2f2f2 ;
 }
 
@@ -399,8 +399,8 @@ b.count {
 					font-size: 16px;
 				}
 				
-				.cur {
-					margin-left: 2px;
+				.glyphicon {
+					
 					font-size: 12px;
 				}
 				
@@ -458,6 +458,10 @@ b.count {
 	padding: 0;
 }
 
+.Partners {
+	padding-top: 10px;
+}
+
 .product-page {
 	.container {	
 		&.product-main {
@@ -495,7 +499,7 @@ b.count {
 			
 		}
 		
-		.cur {
+		.glyphicon {
 			font-size: 18px;
 		}
 		
@@ -1818,6 +1822,21 @@ a.socialIcon:hover, .socialHoverClass {
 		
 		.News {
 			padding-right: 30px;
+			
+			.Title {
+				
+				h3 {
+					a {
+						font-size: 20px;
+						color: #777;
+						
+						&:hover {
+							color: #000;
+						}
+					}
+				}
+			}
+			
 		}
 		
 	}

@@ -94,14 +94,14 @@
 					
 						<div class="row">
 						<div class="col-md-3 OfferImg">
-							<a href="product.php"><img data-large="img/product-1.jpg" src="img/product-2.jpg" alt="img" class="main-img img-responsive" /></a>
+							<a href="text.php"><img data-large="img/product-1.jpg" src="img/product-2.jpg" alt="img" class="main-img img-responsive" /></a>
 							
 							
 						</div>
 						<div class="col-md-9 Description">
 							<div class="News">
 							<div class="Title">
-							<h3><a href="product.php">Изменения по доступу к офферу </a></h3>
+							<h3><a href="text.php">Изменения по доступу к офферу </a></h3>
 							<small><span class="glyphicon  glyphicon-calendar"></span>
 							<a href=""> 22 сентября</a></small>
 						
@@ -126,14 +126,14 @@
 					
 						<div class="row">
 						<div class="col-md-3 OfferImg">
-							<a href="product.php"><img data-large="img/product-1.jpg" src="img/product-3.jpg" alt="img" class="main-img img-responsive" /></a>
+							<a href="text.php"><img data-large="img/product-1.jpg" src="img/product-3.jpg" alt="img" class="main-img img-responsive" /></a>
 							
 							
 						</div>
 						<div class="col-md-9 Description">
 							<div class="News">
 							<div class="Title">
-							<h3><a href="product.php">Изменения по доступу к офферу </a></h3>
+							<h3><a href="text.php">Изменения по доступу к офферу </a></h3>
 							<small><span class="glyphicon  glyphicon-calendar"></span>
 							<a href=""> 22 сентября</a></small>
 						
@@ -158,14 +158,14 @@
 					
 						<div class="row">
 						<div class="col-md-3 OfferImg">
-							<a href="product.php"><img data-large="img/product-1.jpg" src="img/product-4.jpg" alt="img" class="main-img img-responsive" /></a>
+							<a href="text.php"><img data-large="img/product-1.jpg" src="img/product-4.jpg" alt="img" class="main-img img-responsive" /></a>
 							
 							
 						</div>
 						<div class="col-md-9 Description">
 							<div class="News">
 							<div class="Title">
-							<h3><a href="product.php">Изменения по доступу к офферу </a></h3>
+							<h3><a href="text.php">Изменения по доступу к офферу </a></h3>
 							<small><span class="glyphicon  glyphicon-calendar"></span>
 							<a href=""> 22 сентября</a></small>
 						

@@ -72,6 +72,17 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script>
+    	$(document).ready(function() {
+		
+    	  $("#owl-demo").owlCarousel({
+    	    items : 5,
+    	    lazyLoad : true,
+    	    navigation : true
+    	  });
+		
+    	});
+    </script>
+	<script>
 		$('#lines')
 		.prop('number', 0)
 		.animateNumber(
@@ -110,7 +121,6 @@
 		
 		
 	</script>
-	
 	<script>
 		$('#FilterBlock').on('show.bs.dropdown', function () {
 
@@ -132,21 +142,16 @@
 		  	$('[data-toggle="popover"]').popover()
 	})
   	</script>
-  	
   	<script>
 	  	$(function(){
 		  	$('.circlestat').circliful();
 		 });
   	</script>
-  	
-  	 
-  	
   	<script>
 	  	$('.selectpicker').selectpicker();
   	</script>
   	
-  	
-	
+  	<script src="js/owl.carousel.js"></script>
 	<script src="js/circliful.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/modernizr.min.js"></script>	

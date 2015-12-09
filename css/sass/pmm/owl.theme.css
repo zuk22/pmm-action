@@ -24,7 +24,7 @@
 	border-radius: 30px;
 	background: #869791;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
-	opacity: 0.5;
+	opacity: 0.2;
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
@@ -32,6 +32,7 @@
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 	text-decoration: none;
+	background: #38B5E6;
 }
 
 .owl-theme .owl-controls.clickable .owl-buttons .owl-prev {
@@ -42,18 +43,18 @@
 	padding: 20px;
 	background: #000;
 	margin: 0;
-	margin-top: -40px;
+	margin-top: -30px;
 }
 
 .owl-theme .owl-controls.clickable .owl-buttons .owl-next {
 	position: absolute;
 	top: 50%;
-	right: 0;
+	right: 0px;
 	border-radius: 0;
 	padding: 20px;
 	background: #000;
 	margin: 0;
-	margin-top: -40px;
+	margin-top: -30px;
 }
 
 /* Styling Pagination*/
