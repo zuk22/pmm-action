@@ -3,7 +3,7 @@
 	
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/nav.html'); ?>
 	
-	<div class="container">
+	<div class="container CatalogPage">
 		<div class="row">
 		
 			<div class="col-sm-3">
@@ -28,27 +28,27 @@
 					<ul class="list-group">
 					<li class="list-group-item">
 						<span class="badge">89</span>
-						<a href="#">Туризм</a>
+						<a href="#">Новый оффер</a>
 					</li>
 					<li class="list-group-item">
 						<span class="badge">139</span>
-						<a href="#">Сервисы</a>
+						<a href="#">Оффер приостановлен</a>
 					</li>
 					<li class="list-group-item">
 						<span class="badge">38</span>
-						<a href="#">Финансы</a>
+						<a href="#">Оффер закрыт</a>
 					</li>
 					<li class="list-group-item">
 						<span class="badge">56</span>
-						<a href="#">Автомобили</a>
+						<a href="#">Изменение условий по офферу</a>
 					</li>
 					<li class="list-group-item">
 						<span class="badge">626</span>
-						<a href="#">Финансы</a>
+						<a href="#">Изменение условий на лендинге</a>
 					</li>
 					<li class="list-group-item">
 						<span class="badge">12</span>
-						<a href="#">Туризм</a>
+						<a href="#">Промо-материалы</a>
 					</li>
 					
 				</ul><!--list-group-->
@@ -70,21 +70,7 @@
 					</div>
 				</div><!--Block-->
 				
-				<div class="BlockPadding">
-					<div class="checkbox">
-						<label><input type="checkbox" value="">Вэбсайт</label>
-					</div>
-					<div class="checkbox">
-					  <label><input type="checkbox" value="">Мобильный трафик</label>
-					</div>
-					<div class="checkbox">
-					  <label><input type="checkbox" value="">E-mail маркетинг</label>
-					</div>
-					<div class="checkbox">
-					  <label><input type="checkbox" value="">Баннера</label>
-					</div>
-					
-				</div><!--Block-->
+				
 				
 			</div><!--col-sm-3-->
 			

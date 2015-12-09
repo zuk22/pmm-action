@@ -230,7 +230,7 @@
 				<div class="Offer">
 					
 					<div class="OfferInclude Exs">
-						<div class="Badges">эксклюзиф</div>
+						<div class="Badges">эксклюзив</div>
 						<a href="product.php" class="btn OnBtn">Подключить</a>
 						<div class="row">
 						<div class="col-md-3 OfferImg">
