@@ -22,9 +22,8 @@
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
-	background: #869791;
+	background: #f2f2f2;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
-	opacity: 0.2;
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
@@ -32,28 +31,30 @@
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 	text-decoration: none;
-	background: #38B5E6;
+	background: #f2f2f2;
 }
 
 .owl-theme .owl-controls.clickable .owl-buttons .owl-prev {
 	position: absolute;
-	top: 50%;
-	left: 0;
+	top: -17px;
+	right: 43px;
 	border-radius: 0;
-	padding: 20px;
-	background: #000;
+	padding: 10px 15px;
+	background: #f2f2f2;
 	margin: 0;
+	color: #FD5E00;
 	margin-top: -30px;
 }
 
 .owl-theme .owl-controls.clickable .owl-buttons .owl-next {
 	position: absolute;
-	top: 50%;
+	top: -17px;
 	right: 0px;
 	border-radius: 0;
-	padding: 20px;
-	background: #000;
+	padding: 10px 15px;
+	background: #f2f2f2;
 	margin: 0;
+	color: #FD5E00;
 	margin-top: -30px;
 }
 
