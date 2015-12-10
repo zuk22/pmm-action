@@ -133,6 +133,8 @@
 	<div id="product-board" class="clearfix">
 	<?php include($_SERVER['DOCUMENT_ROOT']. '/templates/item.html'); ?>
 	<div class="clearfix"></div>
+	
+	</div> <!-- //end product-board -->
 	<div class="container">
 		<div class="load-more-container">
 			<button class="btn btn-lg ">
@@ -140,8 +142,6 @@
 			</button>
 		</div>
 	</div><!--container-->
-	</div> <!-- //end product-board -->
-	
 	
 	<div class="Webmaster hidden-xs">
 		<div class="container Pacman">

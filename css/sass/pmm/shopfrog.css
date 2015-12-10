@@ -1364,7 +1364,7 @@ a.socialIcon:hover, .socialHoverClass {
     margin-bottom: 20px;
     position: relative;
     padding-left: 25px;
-    background: url("/img/ok.png") no-repeat left center; }
+    background: url("/img/ok.png") no-repeat left top; }
     .RegBlock ul.List li span {
       color: #7DC31F;
       position: absolute;
