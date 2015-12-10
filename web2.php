@@ -299,12 +299,12 @@
 			<div class="col-md-4">
 				<h4>Работая с нами вы получите: </h4>
 				<ul class="List">
-					<li><span class=" glyphicon glyphicon-ok"></span>Персонального менеджера</li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Постоянное обновление офферов</li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Агентские кабинеты </li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Детальную статистику</li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Гибкие и выгодные условия сотрудничества</li>
-					<li><span class=" glyphicon glyphicon-ok"></span>Щедрые  выплаты
+					<li></span>Персонального менеджера</li>
+					<li></span>Постоянное обновление офферов</li>
+					<li></span>Агентские кабинеты </li>
+					<li></span>Детальную статистику</li>
+					<li></span>Гибкие и выгодные условия сотрудничества</li>
+					<li></span>Щедрые  выплаты
 </li>
 				</ul>
 				<h3>Для вэбмастеров</h3>
