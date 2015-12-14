@@ -135,13 +135,13 @@
 	<div class="clearfix"></div>
 	
 	</div> <!-- //end product-board -->
-	<div class="container">
+	
 		<div class="load-more-container">
 			<button class="btn btn-lg ">
 				каталог офферов 
 			</button>
 		</div>
-	</div><!--container-->
+	
 	
 	<div class="Webmaster hidden-xs">
 		<div class="container Pacman">
